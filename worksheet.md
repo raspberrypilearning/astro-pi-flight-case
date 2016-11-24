@@ -6,52 +6,6 @@ The Astro Pi flight case is one of the most desirable cases in the history of th
 
 If you're participating in an Astro Pi competition, this is a great way to prototype and efficiently test your code in the same way as it would be used by the crew of the ISS.
 
-## Checklist
-
-![All required components](images/all-components.png)
-
-If you're planning to build a full Astro Pi flight unit, you can purchase a [kit containing the basic components](http://cpc.farnell.com/ucreate/uc-apk-comp1/astro-pi-component-kit-budget/dp/SC14158) (marked below with a \*).
-
-Check that you have all the parts required before you start:
-
-Part|Quantity|Info|Purpose
----|---|---|---
-Raspberry Pi|1|B+, 2B or 3B|Main computer
-Camera module|1|Normal or Pi NoIR|Main camera
-Sense HAT|1|&nbsp;|Main sensors
-\*F-F Jumper wires|10|2 each of Red, Yellow, Blue, Green, Black|Connect the buttons
-\*Extended 23 way pin header|1|&nbsp;|Goes onto the GPIO pins to hold the Sense HAT at the correct height
-\*Insulation boot|15|&nbsp;|Insulates button wiring
-\*Friction fit crimp|15||Crimp wires together
-\*M2 cross head screw|4|Black 4mm|Fixes camera module to base
-\*M2.5 cross head screw|4|Silver 6 mm|Fixes the top of the Sense HAT to the stand offs below
-\*M2.5 washer|4|&nbsp;|Holds the Sense HAT at the correct height
-\*M2.5 nut|4|&nbsp;|Holds the Sense HAT at the correct height
-\*M4 hex nut|4|&nbsp;|Used in the corner bolt enclosures to hold the case together
-\*M4 bolt|4|30 mm|Used in the corner bolt enclosures to hold the case together
-\*M2.5 male-to-female stand off|4|11 mm|Holds the Sense HAT at the correct height
-\*M2.5 male-to-female stand off|4|8 mm|Holds the Sense HAT at the correct height
-\*Tactile push buttons|6|&nbsp;|Function buttons
-\*Jumper wire|1|&nbsp;|To cut up for push button wiring
-Joystick cap|1|3D printed|Goes on the Sense HAT joystick
-
-![Astro Pi actual button](images/apem.jpg)
-
-The Astro Pi kit already contains buttons, but if you want to buy the exact buttons used in the Astro Pi flight unit, the details are below. At about £9 each they are expensive, because they're designed to survive an enormous number of clicks before wearing out - necessary for a 7-year space mission.
-
-- Manufacturer: APEM
-- Manufacturer Part No: 104350003
-
-You're also going to need the following tools:
-
-- Small cross head screwdriver
-- Small pair of pliers
-- Craft knife or scalpel
-- Sand paper
-- Tape
-- Wire strippers
-- Wire cutters
-
 ## Get access to a 3D printer
 
 First and foremost, you'll need access to a 3D printer to do this. Many schools now have their own, but if your school doesn't then you may be able to find one at your local [hackspace](http://www.hackspace.org.uk/wiki/Main_Page). You can also find local 3D printing services through the [3D Hubs](https://www.3dhubs.com/) website.
@@ -193,6 +147,51 @@ Before proceeding, put all the pieces together to check that they fit correctly.
 ![Fit the case together](images/fit-check.png)
 
 Don't worry about any imperfections or residue from the scaffolding at this stage; you can tidy this up later with sandpaper.
+
+## Checklist
+
+![All required components](images/all-components.png)
+
+If you're planning to build a full Astro Pi flight unit, you can purchase a [kit containing the basic components](http://cpc.farnell.com/ucreate/uc-apk-comp1/astro-pi-component-kit-budget/dp/SC14158) (marked below with a \*).
+
+Alongside your 3D printed parts, check that you have all of the other parts required before you start:
+
+Part|Quantity|Info|Purpose
+---|---|---|---
+Raspberry Pi|1|B+, 2B or 3B|Main computer
+Camera module|1|Normal or Pi NoIR|Main camera
+Sense HAT|1|&nbsp;|Main sensors
+\*F-F Jumper wires|10|2 each of Red, Yellow, Blue, Green, Black|Connect the buttons
+\*Extended 23 way pin header|1|&nbsp;|Goes onto the GPIO pins to hold the Sense HAT at the correct height
+\*Insulation boot|15|&nbsp;|Insulates button wiring
+\*Friction fit crimp|15||Crimp wires together
+\*M2 cross head screw|4|Black 4mm|Fixes camera module to base
+\*M2.5 cross head screw|4|Silver 6 mm|Fixes the top of the Sense HAT to the stand offs below
+\*M2.5 washer|4|&nbsp;|Holds the Sense HAT at the correct height
+\*M2.5 nut|4|&nbsp;|Holds the Sense HAT at the correct height
+\*M4 hex nut|4|&nbsp;|Used in the corner bolt enclosures to hold the case together
+\*M4 bolt|4|30 mm|Used in the corner bolt enclosures to hold the case together
+\*M2.5 male-to-female stand off|4|11 mm|Holds the Sense HAT at the correct height
+\*M2.5 male-to-female stand off|4|8 mm|Holds the Sense HAT at the correct height
+\*Tactile push buttons|6|&nbsp;|Function buttons
+\*Jumper wire|1|&nbsp;|To cut up for push button wiring
+
+![Astro Pi actual button](images/apem.jpg)
+
+The Astro Pi kit already contains buttons, but if you want to buy the exact buttons used in the Astro Pi flight unit, the details are below. At about £9 each they are expensive, because they're designed to survive an enormous number of clicks before wearing out - necessary for a 7-year space mission.
+
+- Manufacturer: APEM
+- Manufacturer Part No: 104350003
+
+You're also going to need the following tools:
+
+- Small cross head screwdriver
+- Small pair of pliers
+- Craft knife or scalpel
+- Sand paper
+- Tape
+- Wire strippers
+- Wire cutters
 
 ## Continue to install the hardware
 
