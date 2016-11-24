@@ -162,6 +162,8 @@ Sense HAT|1|&nbsp;|Main sensors
 
 If you're planning to build a full Astro Pi flight unit, you can purchase a [kit containing the required components](http://cpc.farnell.com/ucreate/uc-apk-comp1/astro-pi-component-kit-budget/dp/SC14158)
 
+Part|Quantity|Info|Purpose
+---|---|---|---
 F-F Jumper wires|10|2 each of Red, Yellow, Blue, Green, Black|Connect the buttons
 Extended 23 way pin header|1|&nbsp;|Goes onto the GPIO pins to hold the Sense HAT at the correct height
 Insulation boot|15|&nbsp;|Insulates button wiring
