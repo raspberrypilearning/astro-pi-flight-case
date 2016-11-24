@@ -10,7 +10,7 @@ If you're participating in an Astro Pi competition, this is a great way to proto
 
 ![All required components](images/all-components.png)
 
-If you're planning to build a full Astro Pi flight unit, you can purchase a [kit containing all of the necessary components](http://cpc.farnell.com/ucreate/uc-apk-comp1/astro-pi-component-kit-budget/dp/SC14158).
+If you're planning to build a full Astro Pi flight unit, you can purchase a [kit containing the basic components](http://cpc.farnell.com/ucreate/uc-apk-comp1/astro-pi-component-kit-budget/dp/SC14158) marked below with a \*
 
 Check that you have all the parts required before you start:
 
@@ -19,25 +19,25 @@ Part|Quantity|Info|Purpose
 Raspberry Pi|1|B+, 2B or 3B|Main computer
 Camera module|1|Normal or Pi NoIR|Main camera
 Sense HAT|1|&nbsp;|Main sensors
-F-F Jumper wires|10|2x Red, Yellow, Blue, Green, Black|Connect the buttons
-Extended 23 way pin header|1|&nbsp;|Goes onto the GPIO pins to hold the Sense HAT at the correct height
-Insulation boot|15|&nbsp;|Insulates button wiring
-Friction fit crimp|15||Crimp wires together
-M2 cross head screw|4|Black 4mm|Fixes camera module to base
-M2.5 cross head screw|4|Silver 6 mm|Fixes the top of the Sense HAT to the stand offs below
-M2.5 washer|4|&nbsp;|Holds the Sense HAT at the correct height
-M2.5 nut|4|&nbsp;|Holds the Sense HAT at the correct height
-M4 hex nut|4|&nbsp;|Used in the corner bolt enclosures to hold the case together
-M4 bolt|4|30 mm|Used in the corner bolt enclosures to hold the case together
-M2.5 male-to-female stand off|4|11 mm|Holds the Sense HAT at the correct height
-M2.5 male-to-female stand off|4|8 mm|Holds the Sense HAT at the correct height
-Tactile push buttons|6|&nbsp;|Function buttons
-Jumper wire|1|&nbsp;|To cut up for push button wiring
+F-F Jumper wires*|10|2 each of Red, Yellow, Blue, Green, Black|Connect the buttons
+Extended 23 way pin header*|1|&nbsp;|Goes onto the GPIO pins to hold the Sense HAT at the correct height
+Insulation boot*|15|&nbsp;|Insulates button wiring
+Friction fit crimp*|15||Crimp wires together
+M2 cross head screw*|4|Black 4mm|Fixes camera module to base
+M2.5 cross head screw*|4|Silver 6 mm|Fixes the top of the Sense HAT to the stand offs below
+M2.5 washer*|4|&nbsp;|Holds the Sense HAT at the correct height
+M2.5 nut*|4|&nbsp;|Holds the Sense HAT at the correct height
+M4 hex nut*|4|&nbsp;|Used in the corner bolt enclosures to hold the case together
+M4 bolt*|4|30 mm|Used in the corner bolt enclosures to hold the case together
+M2.5 male-to-female stand off*|4|11 mm|Holds the Sense HAT at the correct height
+M2.5 male-to-female stand off*|4|8 mm|Holds the Sense HAT at the correct height
+Tactile push buttons*|6|&nbsp;|Function buttons
+Jumper wire*|1|&nbsp;|To cut up for push button wiring
 Joystick cap|1|3D printed|Goes on the Sense HAT joystick
 
 ![Astro Pi actual button](images/apem.jpg)
 
-The Astro Pi kit already contains buttons, but if you want to buy the exact buttons used in the Astro Pi flight unit, the details are below. At about £9 each they're expensive, because they're designed to survive an enormous number of clicks before wearing out - necessary for a 7-year space mission.
+The Astro Pi kit already contains buttons, but if you want to buy the exact buttons used in the Astro Pi flight unit, the details are below. At about £9 each they are expensive, because they're designed to survive an enormous number of clicks before wearing out - necessary for a 7-year space mission.
 
 - Manufacturer: APEM
 - Manufacturer Part No: 104350003
@@ -50,9 +50,7 @@ You're also going to need the following tools:
 - Sand paper
 - Tape
 - Wire strippers
-- Soldering iron
-- Solder
-- Drill and drill bits (if not using the APEM buttons)
+- Wire cutters
 
 ## Get access to a 3D printer
 
@@ -62,7 +60,13 @@ First and foremost, you'll need access to a 3D printer to do this. Many schools 
 
 The 3D files are in [STL](https://en.wikipedia.org/wiki/STL_%28file_format%29) format, which is widely used in 3D printing all over the world. The software for your 3D printer will have no problem loading them. Import using metric millimetres (mm) and no scale adjustments will be required.
 
-- [Part 1](https://github.com/raspberrypilearning/3d-printed-astro-pi-flight-case/raw/master/STL/Astro_Pi_Enclosure_3D_PRINT_SECTION_1%20V1.STL) (heat sink)
+You can choose between printing using the standard STL file or the anti-warping STL file for each component. The anti-warping files add extra scaffolding around the case print to prevent the part becoming warped as it cools.
+
+**Part 1 - Heat sink**
+(/STL/Astro_Pi_Heat_Sink.stl) (Heat Sink)
+(/STL/anti-warping/Astro_Pi_Heat_Sink_warp.stl) (Heat Sink - anti warp)
+
+
 - Part 2 (base) for Pi models [B+ and 2B](https://github.com/raspberrypilearning/3d-printed-astro-pi-flight-case/raw/master/STL/Astro_Pi_Enclosure_3D_PRINT_SECTION_2%20V1.STL) or [3B](https://github.com/raspberrypilearning/3d-printed-astro-pi-flight-case/raw/master/STL/Astro_Pi3_Enclosure_3D_PRINT_SECTION_2%20V2.STL)
 - Part 3 (middle) for Pi models [B+ and 2B](https://github.com/raspberrypilearning/3d-printed-astro-pi-flight-case/raw/master/STL/Astro_Pi_Enclosure_3D_PRINT_SECTION_3%20V1.STL) or [3B](https://github.com/raspberrypilearning/3d-printed-astro-pi-flight-case/raw/master/STL/Astro_Pi3_Enclosure_3D_PRINT_SECTION_3%20V2.STL)
 - Part 4 (lid) with [10 mm holes](https://github.com/raspberrypilearning/3d-printed-astro-pi-flight-case/raw/master/STL/Astro_Pi_Enclosure_3D_PRINT_SECTION_4%20V1.STL) for the APEM buttons or [3 mm pilot holes](https://github.com/raspberrypilearning/3d-printed-astro-pi-flight-case/raw/master/STL/Astro_Pi_Enclosure_3D_PRINT_SECTION_4_PILOT%20V2.STL) for drilling to fit any button size.
@@ -84,7 +88,7 @@ Potential hazards include:
 
 ## Print each part
 
-The 3D printer we used for the blue parts shown below was an [Up Plus 2](https://www.3dhubs.com/3d-printers/up-plus-2), called the Afinia H480 in the US, using ABS filament. Because there are so many different types of 3D printer, we cannot possibly provide instructions for them all, so we can only provide rough guidance here and you'll need to figure out the rest on your own.
+The 3D printer we used for the black parts shown below was an [Up Plus 2](https://www.3dhubs.com/3d-printers/up-plus-2), called the Afinia H480 in the US, using ABS filament. Because there are so many different types of 3D printer, we cannot possibly provide instructions for them all, so we can only provide rough guidance here and you'll need to figure out the rest on your own.
 
 Here are some top tips though:
 
