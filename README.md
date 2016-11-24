@@ -8,8 +8,8 @@ If you're participating in an Astro Pi competition, this is a great way to proto
 
 ## Worksheet
 
-- [Worksheet](worksheet.md)
-- [Worksheet 2](worksheet2.md)
+- [3D printing and setup](worksheet.md)
+- [Install the hardware](worksheet2.md)
 
 ## Licence
 
@@ -20,7 +20,3 @@ Unless otherwise specified, everything in this repository is covered by the foll
 ***3D Printed Astro Pi Flight Case*** by the [Raspberry Pi Foundation](http://www.raspberrypi.org) is licenced under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
 
 Based on a work at https://github.com/raspberrypilearning/3d-printed-astro-pi-flight-case
-
-
-
-
