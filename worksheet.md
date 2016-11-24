@@ -148,9 +148,15 @@ You may choose to not print this part because it's not essential to the rest of 
 
 ### Base
 
-The base scaffolding should come away easily as with the heat sink, but you'll also need to remove some material that was used to support the corner bolt enclosures and around the aperture for the micro SD card. A small pair of pliers is ideal for this.
+The base scaffolding should come away easily as with the heat sink.
 
-![](images/scaff_base.png)
+![Peel off the base scaffolding](images/peel-off-base.png)
+
+If the scaffolding breaks off, carefully prise up a corner of the remaining scaffolding using a scalpel and then continue peeling it off with your fingers.
+
+![If the scaffolding breaks](images/oops-scalpel.png)
+
+Don't worry if you scuff the surface with the scalpel as the rough side of the print will not be visible when the case is assembled.
 
 ### Middle
 
