@@ -58,11 +58,9 @@ Now you can insert the camera ribbon cable into the CSI port of the Raspberry Pi
 
 This is where we're going to deviate from what's inside the Astro Pi flight unit. The flight units have another circuit board in between the Raspberry Pi and Sense HAT which holds a real-time clock, oscillator crystal, and backup battery. This RTC board also has some pins that the six push buttons connect to. Unfortunately, this is not available to the public.
 
-Our goal was to keep the 3D printed flight case as *faithful* to the original as possible, so the decision was taken to *not* alter it to accommodate the absence of this board. It may be possible for us to release the Gerber files for it in the future so that people can make their own.
+Our goal was to keep the 3D printed flight case as *faithful* to the original as possible, so the decision was taken to *not* alter it to accommodate the absence of this board. It may be possible for us to release the Gerber files for it in the future so that people can make their own. We're going to use the hex nuts of the same depth as the RTC board to compensate for its absence.
 
-So we're going to use a hex nut or washer of the same depth as the RTC board to compensate for its absence. The RTC board is 1.6 mm thick, so we need a nut or washer of the same thickness. There are many ways you could achieve this, for example with two washers of 0.8 mm thickness. Perhaps you could 3D print one.
-
-Add the extended 23 way pin header to the Raspberry Pi GPIO pins, at the furthest end from the USB ports. Then, take an 8 mm M2.5 stand off and put the hex nut or washer onto its thread before screwing it into the hole of the 11 mm stand off, as shown below. Do the same for the remaining three stand offs.
+Add the extended 23 way pin header to the Raspberry Pi GPIO pins, at the furthest end from the USB ports. Then, take an 8 mm M2.5 stand off and put a hex nut onto its thread before screwing it into the hole of the 11 mm stand off, as shown below. Do the same for the remaining three stand offs.
 
 ![](images/add-header-standoffs.png)
 
