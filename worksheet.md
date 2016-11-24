@@ -63,8 +63,8 @@ The 3D files are in [STL](https://en.wikipedia.org/wiki/STL_%28file_format%29) f
 You can choose between printing using the standard STL file or the anti-warping STL file for each component. The anti-warping files add extra scaffolding around the case print to prevent the part becoming warped as it cools.
 
 **Part 1 - Heat sink**
-(STL/Astro_Pi_Heat_Sink.stl) (Heat Sink)
-(STL/anti-warping/Astro_Pi_Heat_Sink_warp.stl) (Heat Sink - anti warp)
+[Heat Sink](STL/Astro_Pi_Heat_Sink.stl)
+[Anti-warp Heat Sink](STL/anti-warping/Astro_Pi_Heat_Sink_warp.stl) 
 
 
 - Part 2 (base) for Pi models [B+ and 2B](https://github.com/raspberrypilearning/3d-printed-astro-pi-flight-case/raw/master/STL/Astro_Pi_Enclosure_3D_PRINT_SECTION_2%20V1.STL) or [3B](https://github.com/raspberrypilearning/3d-printed-astro-pi-flight-case/raw/master/STL/Astro_Pi3_Enclosure_3D_PRINT_SECTION_2%20V2.STL)
