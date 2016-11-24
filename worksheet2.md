@@ -1,18 +1,26 @@
 # 3D printed Astro Pi flight case
 
-- [Back to Worksheet 1](worksheet.md)
+- [Back to 3D printing and setup](worksheet.md)
 
 When you're happy with the 3D printed parts you can proceed with installing the hardware.
 
 ## Fold the camera ribbon
 
-Getting the camera into the case can be a little tricky but here is how we did it for the flight units. Firstly, disconnect the ribbon cable from the camera; the two tabs lift up on either side to release the cable in the same way as they do on the Raspberry Pi itself. Then fold the ribbon similar to how it's shown below. These folds allow the camera cable to come up the side of the Raspberry Pi with enough flex to insert into the CSI camera port (see further down).
+Getting the camera into the case can be a little tricky but here is how we did it for the flight units. Firstly, lift the two tabs on either side of the camera module to disconnect the ribbon cable from the camera. Then fold the ribbon. These folds allow the camera cable to come up the side of the Raspberry Pi with enough flex to insert into the CSI camera port (see further down).
 
-![](images/ribbon1.png)
+1. Lay the ribbon out with the connectors face up on the left. At 1cm along the ribbon, fold the ribbon downwards.
+
+  ![Fold down at 1cm](images/cam-fold1.png)
+
+2. Now measure 4cm from the top of the ribbon and fold the ribbon to the right.
+  ![Fold 4cm right](images/cam-fold2.png)
+
+3. Finally, measuring 4cm from the bottom left corner, fold the ribbon upwards.
+![Fold 1cm](images/cam-fold3.png)
 
 You don't need to get this perfect for it to work, but try to get it as close as possible. The kapton tape is also optional; any kind of tape will work fine if you want to prevent the ribbon from unfurling.
 
-![](images/ribbon2.png)
+  ![Camera with tape](images/cam-tape.png)
 
 ## Install the camera
 
