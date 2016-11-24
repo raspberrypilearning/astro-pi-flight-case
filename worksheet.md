@@ -19,23 +19,25 @@ Part|Quantity|Info|Purpose
 Raspberry Pi|1|B+, 2B or 3B|Main computer
 Camera module|1|Normal or Pi NoIR|Main camera
 Sense HAT|1|&nbsp;|Main sensors
-2x20 pin PCB header (GPIO connector)|1|15 mm long pins, 2.54 mm pitch spacing|Goes onto the GPIO pins to hold the Sense HAT at the correct height
-M2 cross head screw|4|4 mm|Fixes camera module into base
-M2.5 male-to-female stand off|4|11 mm|Holds the Sense HAT at the correct height †
-M2.5 male-to-female stand off|4|8 mm|Holds the Sense HAT at the correct height †
-M2.5 nut or washer|4|1.6 mm depth|Holds the Sense HAT at the correct height †
-M2.5 cross head screw|4|6 mm|Fixes the top of the Sense HAT to the stand offs below
-M4 bolt|4|30 mm|Used in the corner bolt enclosures to hold the case together
+F-F Jumper wires|10|2x Red, Yellow, Blue, Green, Black|Connect the buttons
+Extended 23 way pin header|1|&nbsp;|Goes onto the GPIO pins to hold the Sense HAT at the correct height
+Insulation boot|15|&nbsp;|Insulates button wiring
+Friction fit crimp|15||Crimp wires together
+M2 cross head screw|4|Black 4mm|Fixes camera module to base
+M2.5 cross head screw|4|Silver 6 mm|Fixes the top of the Sense HAT to the stand offs below
+M2.5 washer|4|&nbsp;|Holds the Sense HAT at the correct height
+M2.5 nut|4|&nbsp;|Holds the Sense HAT at the correct height
 M4 hex nut|4|&nbsp;|Used in the corner bolt enclosures to hold the case together
+M4 bolt|4|30 mm|Used in the corner bolt enclosures to hold the case together
+M2.5 male-to-female stand off|4|11 mm|Holds the Sense HAT at the correct height
+M2.5 male-to-female stand off|4|8 mm|Holds the Sense HAT at the correct height
 Tactile push buttons|6|&nbsp;|Function buttons
-Jumper wire|7+|Any type|To cut up for push button wiring
-Laptop trackpoint cap|1|Flight units use Lenovo part 73P2698|Goes on the Sense HAT joystick
-
-† = You could achieve this height in other ways if you wish, for example with 20.6 mm stand offs. Perhaps you could even 3D print your own!
+Jumper wire|1|&nbsp;|To cut up for push button wiring
+Joystick cap|1|3D printed|Goes on the Sense HAT joystick
 
 ![Astro Pi actual button](images/apem.jpg)
 
-If you want to buy the exact buttons used in the Astro Pi flight unit, the details are below. At about £9 each they're expensive, because they're designed to survive an enormous number of clicks before wearing out - necessary for a 7-year space mission. So you might want to consider looking for a cheaper one elsewhere.
+The Astro Pi kit already contains buttons, but if you want to buy the exact buttons used in the Astro Pi flight unit, the details are below. At about £9 each they're expensive, because they're designed to survive an enormous number of clicks before wearing out - necessary for a 7-year space mission.
 
 - Manufacturer: APEM
 - Manufacturer Part No: 104350003
@@ -46,13 +48,10 @@ You're also going to need the following tools:
 - Small pair of pliers
 - Craft knife or scalpel
 - Sand paper
-- Kapton tape (or similar)
+- Tape
 - Wire strippers
 - Soldering iron
 - Solder
-- Epoxy adhesive
-- Glue gun
-- Hot melt adhesive for glue gun
 - Drill and drill bits (if not using the APEM buttons)
 
 ## Get access to a 3D printer
