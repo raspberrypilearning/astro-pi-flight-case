@@ -152,50 +152,48 @@ The base scaffolding should come away easily as with the heat sink.
 
 ![Peel off the base scaffolding](images/peel-off-base.png)
 
-If the scaffolding breaks off, carefully prise up a corner of the remaining scaffolding using a scalpel and then continue peeling it off with your fingers.
+If the scaffolding breaks off unintentionally, carefully prise up the remaining scaffolding using a scalpel and then continue peeling it off with your fingers.
 
 ![If the scaffolding breaks](images/oops-scalpel.png)
 
 Don't worry if you scuff the surface with the scalpel as the rough side of the print will not be visible when the case is assembled.
 
+Don't forget to also clear the material around the SD card slot, this is easily done with pliers.
+
+![Clear the SD card slot](images/sd-card-slot.png)
+
 ### Middle
 
-Again, the scaffolding should come away easily and there will be some material around the corner bolt enclosures that you'll need to remove.
+Again, the scaffolding should come away easily by peeling with your fingers.
 
-![](images/scaff_middle.png)
+![Peel off the middle scaffolding](images/peel-off-middle.png)
 
 ### Lid
 
-The bottom layer of scaffolding on the lid should also come away easily.
+Peel off the bottom layer of scaffolding as before.
 
-![](images/scaff_lid1.png)
+![When you first peel off the lid](images/lid-first-peel.png)
 
 However, there are a few sunken holes on the underside that must also be cleared of material. These are present to prevent the lid from striking the Raspberry Pi hardware when installed into the case. You'll need a scalpel or craft knife to dig into it.
 
-![](images/scaff_lid2.png)
+![Use a scalpel to lift the scaffold](images/inner-scalpel.png)
 
 Once you've managed to lift some of it, use a pair of small pliers to remove the rest of the material. The areas marked with a red star below need the same treatment.
 
-![](images/scaff_lid3.png)
+![Stars show which bits need to be removed](images/lid-with-stars.png)
 
 When you're done it should look like this:
 
-![](images/scaff_lid4.png)
+![Cleaned up lid](images/lid-done.png)
 
 ## Do a fit check
 
 Before proceeding, put all the pieces together to check that they fit correctly. The lipped edge between the base and middle pieces is of most concern to you here. The heat sink and lid just need to line up.
 
-![](images/fit_check.png)
+![Fit the case together](images/fit-check.png)
 
 Don't worry about any imperfections or residue from the scaffolding at this stage; you can tidy this up later with sandpaper.
 
-## Epoxy adhesive
-
-Use some high-performance epoxy adhesive to glue the heat sink to the base, and then the lid to the middle. You may wish to leave this step until after you've installed the hardware in the base. It may help mitigate any alignment issues later on.
-
-![](images/epoxy_adhesive.png)
-
 ## Continue to install the hardware
 
-- [Worksheet 2](worksheet2.md)
+- [Install the hardware](worksheet2.md)
