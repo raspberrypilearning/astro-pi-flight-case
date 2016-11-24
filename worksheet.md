@@ -75,18 +75,25 @@ Print **one** file from each section:
 * [Base for Pi 2](STL/Astro_Pi_Base_Pi1_or_2.stl)
 * [Base for Pi 3](STL/Astro_Pi_Base_Pi3.stl)
 * [Anti-warp base for Pi 2](STL/anti-warping/Astro_Pi_Base_Pi1_or_2_warp.stl)
-* [Anti-warp base for Pi 3](STL/Astro_Pi_Base_Pi3_warp.stl)
+* [Anti-warp base for Pi 3](STL/anti-warping/Astro_Pi_Base_Pi3_warp.stl)
 
 **Part 3 - Middle**
 
 * [Middle](STL/Astro_Pi_Middle.stl)
-* [Anti-warp middle](STL/anti-warp/Astro_Pi_Middle_warp.stl)
+* [Anti-warp middle](STL/anti-warping/Astro_Pi_Middle_warp.stl)
 
 **Part 4 - Lid**
 
 * [Lid - 10mm holes](STL/Astro_Pi_Lid_10mm_Buttons.stl) - for use with the APEM buttons
 * [Lid - 7mm holes](STL/Astro_Pi_Lid_7mm_Buttons.stl) - for use with the buttons from the kit
 * [Lid - 3mm pilot holes](STL/Astro_Pi_Lid_3mm_Pilot_Holes.stl) - for drilling to fit any button size
+* [Anti-warp lid - 10mm holes](STL/anti-warping/Astro_Pi_Lid_10mm_Buttons_warp.stl) - for use with the APEM buttons
+* [Anti-warp lid - 7mm holes](STL/anti-warping/Astro_Pi_Lid_7mm_Buttons_warp.stl) - for use with the buttons from the kit
+* [Anti-warp lid - 3mm pilot holes](STL/anti-warping/Astro_Pi_Lid_3mm_Pilot_Holes_warp.stl) - for drilling to fit any button size
+
+**Part 5 - Joystick**
+
+* [Joystick](STL/Astro_Pi_Joystick.stl)
 
 The 3D files don't exactly match those used to make the aluminium flight cases on the Space Station. They have been modified to make them compatible with 3D printers, so that most people who attempt this will achieve success without difficulty.
 
