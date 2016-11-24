@@ -120,19 +120,19 @@ The STL files should have the models like this by default, but please make sure 
 
 ### Heat sink
 
-![](images/raw_print_heatsink.png)
+![](images/heatsink-antiwarp.png)
 
 ### Base
 
-![](images/raw_print_base.png)
+![](images/base-antiwarp.png)
 
 ### Middle
 
-![](images/raw_print_middle.png)
+![](images/middle-antiwarp.png)
 
 ### Lid
 
-![](images/raw_print_lid.png)
+![](images/lid-antiwarp.png)
 
 ## Remove the scaffolding
 
