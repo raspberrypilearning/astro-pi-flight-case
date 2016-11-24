@@ -80,9 +80,9 @@ Print **one** file from each section:
 
 **Part 4 - Lid**
 
-* [Lid - 10mm holes](STL/Astro_Pi_Lid_10mm_Buttons.stl) or [Anti-warp lid - 10mm holes](STL/anti-warping/Astro_Pi_Lid_10mm_Buttons_warp.stl) - for use with the APEM buttons
-* [Lid - 7mm holes](STL/Astro_Pi_Lid_7mm_Buttons.stl) or [Anti-warp lid - 7mm holes](STL/anti-warping/Astro_Pi_Lid_7mm_Buttons_warp.stl) - for use with the buttons from the kit
-* [Lid - 3mm pilot holes](STL/Astro_Pi_Lid_3mm_Pilot_Holes.stl) or [Anti-warp lid - 3mm pilot holes](STL/anti-warping/Astro_Pi_Lid_3mm_Pilot_Holes_warp.stl) - for drilling to fit any button size
+* [Lid 10mm](STL/Astro_Pi_Lid_10mm_Buttons.stl) or [Anti-warp lid 10mm](STL/anti-warping/Astro_Pi_Lid_10mm_Buttons_warp.stl) - 10mm holes, for use with the APEM buttons
+* [Lid 7mm](STL/Astro_Pi_Lid_7mm_Buttons.stl) or [Anti-warp lid 7mm](STL/anti-warping/Astro_Pi_Lid_7mm_Buttons_warp.stl) - 7mm holes, for use with the buttons from the kit
+* [Lid - 3mm](STL/Astro_Pi_Lid_3mm_Pilot_Holes.stl) or [Anti-warp lid - 3mm](STL/anti-warping/Astro_Pi_Lid_3mm_Pilot_Holes_warp.stl) - 3mm pilot holes, for drilling to fit any button size
 
 **Part 5 - Joystick**
 
@@ -142,7 +142,7 @@ In order to keep the model structurally sound while printing, your 3D printer wi
 
 You should be able to remove the scaffolding on the heat sink using just your hands; this part may bend slightly, so don't be too rough while doing this.
 
-![](images/scaff_heatsink.png)
+![](images/peel-off-heatsink.png)
 
 You may choose to not print this part because it's not essential to the rest of the case, and because it's made of plastic it *will not* work as a heat sink. We've included it anyway so that you can achieve the iconic look and feel of the Astro Pi flight case.
 
