@@ -62,14 +62,31 @@ The 3D files are in [STL](https://en.wikipedia.org/wiki/STL_%28file_format%29) f
 
 You can choose between printing using the standard STL file or the anti-warping STL file for each component. The anti-warping files add extra scaffolding around the case print to prevent the part becoming warped as it cools.
 
+Print **one** file from each section:
+
 **Part 1 - Heat sink**
-[Heat Sink](STL/Astro_Pi_Heat_Sink.stl)
-[Anti-warp Heat Sink](STL/anti-warping/Astro_Pi_Heat_Sink_warp.stl) 
+
+* [Heat Sink](STL/Astro_Pi_Heat_Sink.stl)
+* [Anti-warp Heat Sink](STL/anti-warping/Astro_Pi_Heat_Sink_warp.stl)
 
 
-- Part 2 (base) for Pi models [B+ and 2B](https://github.com/raspberrypilearning/3d-printed-astro-pi-flight-case/raw/master/STL/Astro_Pi_Enclosure_3D_PRINT_SECTION_2%20V1.STL) or [3B](https://github.com/raspberrypilearning/3d-printed-astro-pi-flight-case/raw/master/STL/Astro_Pi3_Enclosure_3D_PRINT_SECTION_2%20V2.STL)
-- Part 3 (middle) for Pi models [B+ and 2B](https://github.com/raspberrypilearning/3d-printed-astro-pi-flight-case/raw/master/STL/Astro_Pi_Enclosure_3D_PRINT_SECTION_3%20V1.STL) or [3B](https://github.com/raspberrypilearning/3d-printed-astro-pi-flight-case/raw/master/STL/Astro_Pi3_Enclosure_3D_PRINT_SECTION_3%20V2.STL)
-- Part 4 (lid) with [10 mm holes](https://github.com/raspberrypilearning/3d-printed-astro-pi-flight-case/raw/master/STL/Astro_Pi_Enclosure_3D_PRINT_SECTION_4%20V1.STL) for the APEM buttons or [3 mm pilot holes](https://github.com/raspberrypilearning/3d-printed-astro-pi-flight-case/raw/master/STL/Astro_Pi_Enclosure_3D_PRINT_SECTION_4_PILOT%20V2.STL) for drilling to fit any button size.
+**Part 2 - Base**
+
+* [Base for Pi 2](STL/Astro_Pi_Base_Pi1_or_2.stl)
+* [Base for Pi 3](STL/Astro_Pi_Base_Pi3.stl)
+* [Anti-warp base for Pi 2](STL/anti-warping/Astro_Pi_Base_Pi1_or_2_warp.stl)
+* [Anti-warp base for Pi 3](STL/Astro_Pi_Base_Pi3_warp.stl)
+
+**Part 3 - Middle**
+
+* [Middle](STL/Astro_Pi_Middle.stl)
+* [Anti-warp middle](STL/anti-warp/Astro_Pi_Middle_warp.stl)
+
+**Part 4 - Lid**
+
+* [Lid - 10mm holes](STL/Astro_Pi_Lid_10mm_Buttons.stl) - for use with the APEM buttons
+* [Lid - 7mm holes](STL/Astro_Pi_Lid_7mm_Buttons.stl) - for use with the buttons from the kit
+* [Lid - 3mm pilot holes](STL/Astro_Pi_Lid_3mm_Pilot_Holes.stl) - for drilling to fit any button size
 
 The 3D files don't exactly match those used to make the aluminium flight cases on the Space Station. They have been modified to make them compatible with 3D printers, so that most people who attempt this will achieve success without difficulty.
 
