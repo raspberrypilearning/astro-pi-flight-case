@@ -1,6 +1,6 @@
 # 3D printed Astro Pi flight case
 
-![](images/header.png)
+![3D prints of case](images/3d-case-parts.png)
 
 The Astro Pi flight case is one of the most desirable cases in the history of the Raspberry Pi. With this resource you will learn how to 3D print your own case and install the Astro Pi hardware inside it. You'll then have your very own Astro Pi flight unit, identical in almost every way to the ones on the International Space Station right now.
 
@@ -8,7 +8,7 @@ If you're participating in an Astro Pi competition, this is a great way to proto
 
 ## Checklist
 
-![](images/fittings.png)
+![All required components](images/all-components.png)
 
 If you're planning to build a full Astro Pi flight unit, you can purchase a [kit containing all of the necessary components](http://cpc.farnell.com/ucreate/uc-apk-comp1/astro-pi-component-kit-budget/dp/SC14158).
 
@@ -33,7 +33,7 @@ Laptop trackpoint cap|1|Flight units use Lenovo part 73P2698|Goes on the Sense H
 
 † = You could achieve this height in other ways if you wish, for example with 20.6 mm stand offs. Perhaps you could even 3D print your own!
 
-![](images/apem.jpg)
+![Astro Pi actual button](images/apem.jpg)
 
 If you want to buy the exact buttons used in the Astro Pi flight unit, the details are below. At about £9 each they're expensive, because they're designed to survive an enormous number of clicks before wearing out - necessary for a 7-year space mission. So you might want to consider looking for a cheaper one elsewhere.
 
