@@ -191,7 +191,7 @@ Once you have assembled the Astro Pi, start it up with a monitor, keyboard and m
 
 If you have the ESA branded Astro Pi kit, when you turn the Astro Pi on, the rainbow pattern on the LED matrix should disappear after a few seconds and the push buttons should now type letters. You can test this in the terminal. You can run the test program at the bottom of this section.
 
-If you do not have the ESA branded Astro Pi kit, when you turn the Astro Pi on the rainbow pattern on the LED matrix will remain forever and the buttons will not work yet.
+If you do not have the ESA branded Astro Pi kit, when you turn the Astro Pi on, the rainbow pattern on the LED matrix will remain forever and the buttons will not work yet.
 
 You will need to download some files and change a few configuration settings, so make sure your Astro Pi is online. Firstly, download the Device Tree overlay that maps the push buttons to the corresponding keyboard keys. 
 
@@ -225,7 +225,7 @@ Now reboot the Astro Pi.
 sudo reboot
 ```
 
-Now let's download and run a Python test program to check everything is working. The test code uses [Pygame](http://pygame.org/wiki/tutorials), so please do this on the Astro Pi's own screen and not via remote access or it will not work. Open a terminal and enter these commands:
+Now let's download and run a Python test program to check everything is working. The test code uses [Pygame](http://pygame.org/wiki/tutorials), so please do this on a directly connected monitor and not via remote access or it will not work. Open a terminal and enter these commands:
 
 ```bash
 cd ~
