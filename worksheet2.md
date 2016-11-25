@@ -52,8 +52,6 @@ Tip: If you are having trouble screwing the stand offs in, screw one of the silv
 
 Now you can insert the camera ribbon cable into the CSI port of the Raspberry Pi. Try to make sure the tin connectors are all level to ensure a good connection.
 
-![Pi and camera installed](images/pi-installed.png)
-
 ## Install the Sense HAT
 
 This is where we're going to deviate from what's inside the Astro Pi flight unit. The flight units have another circuit board in between the Raspberry Pi and Sense HAT which holds a real-time clock, oscillator crystal, and backup battery. This RTC board also has some pins that the six push buttons connect to. Unfortunately, this is not available to the public.
