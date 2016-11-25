@@ -78,7 +78,7 @@ Finally, use the M2.5 cross head screws to secure the Sense HAT to the stand off
 
 This section assumes you are using the buttons from the Astro Pi kit. If you are using the APEM buttons or another type of buttons, these may differ in their installation.
 
-Take a button, then unscrew and remove the nut. Sometimes the nut will get stuck on the button cap, but it should come off if you wiggle it. Keep the washer on the thread.
+Take a button, then unscrew and remove the nut. Sometimes the nut will get stuck on the button cap, but it should come off if you wiggle it.
 
 ![Remove nut from button](images/buttons1.png)
 
@@ -88,7 +88,7 @@ Keeping the washer on the thread, insert the button from the underside of the li
 
 Do the same for the remaining buttons, and when you are done it should look like this:
 
-![Finished front and back(images/buttons3.png)
+![Finished front and back](images/buttons3.png)
 
 If you are using the lid with the pilot holes then you'll need to check the datasheet of your chosen button type to find the *threaded bushing diameter*. Once you know this you can select a drill bit with this diameter, plus 1 mm for clearance, and proceed to drill all six holes. We recommend using a vice or G clamp to hold the lid in place while you drill. You can then install the buttons as per their requirements.
 
