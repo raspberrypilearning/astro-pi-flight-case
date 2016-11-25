@@ -187,7 +187,13 @@ Weird fact: The real flight units use a track point cap from a Lenovo ThinkPad l
 
 ## Test the buttons
 
-Once you have assembled the Astro Pi, start it up with a monitor, keyboard and mouse connected. We need to download some files and change a few configuration settings. Firstly, download the Device Tree overlay that maps the push buttons to the corresponding keyboard keys. 
+Once you have assembled the Astro Pi, start it up with a monitor, keyboard and mouse connected.
+
+If you have the ESA branded Astro Pi kit, when you turn the Astro Pi on, the rainbow pattern on the LED matrix should disappear after a few seconds and the push buttons should now type letters. You can test this in the terminal. You can run the test program at the bottom of this section.
+
+If you do not have the ESA branded Astro Pi kit, when you turn the Astro Pi on the rainbow pattern on the LED matrix will remain forever and the buttons will not work yet.
+
+You will need to download some files and change a few configuration settings, so make sure your Astro Pi is online. Firstly, download the Device Tree overlay that maps the push buttons to the corresponding keyboard keys. 
 
 Open a terminal and enter these commands:
 
@@ -207,6 +213,7 @@ sudo nano /boot/config.txt
 Go to the bottom of the file and enter the line below:
 
 ```bash
+dtoverlay=rpi-sense
 dtoverlay=astropi-keys
 ```
 
