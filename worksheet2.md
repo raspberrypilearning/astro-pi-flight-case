@@ -114,7 +114,7 @@ Take the length of black wire which should be approximately 50cm in length. Usin
 
 ![Black wire](images/wire-ushape.png)
 
-Now take a black jumper wire and remove one end to expose the connector, just as you did before. Hold the connector next to one end of one of your 10cm lenghts of black wire, and pass both wires through the narrow end of an insulation boot. Insert both together into a crimp and tighten the crimp as before.
+Now take a black jumper wire and remove one end to expose the connector, just as you did before. Hold the connector next to one end of one of your 10cm lengths of black wire, and pass both wires through the narrow end of an insulation boot. Insert both together into a crimp and tighten the crimp as before.
 
 ![Black wire](images/ground-wire1.png)
 
@@ -122,27 +122,42 @@ Connect up the four remaining lengths of black wire to create a chain, crimping 
 
 ![Black wire](images/ground-wire-loop.png)
 
-For the final end, use pliers to fold over the bare wire to make it thicker before putting this wire alone inside a crimp and tightening up as before.
+For the final end, use pliers to fold over the bare wire to make it thicker before putting this wire alone inside a crimp and tightening up as before. You should end up with a chain containing six crimped ends and one black plastic jumper end.
 
+## Connecting wires to the button terminals
 
-## Wiring up the buttons
+First you will connect your ground loop to the buttons. Starting with the top button, take the crimped wire end furthest from the black plastic jumper lead. Slide down the insulation boot, hold the crimp between finger and thumb and push it all the way onto the button terminal. Once the crimp is firmly in place, slide the insulation boot back up. Repeat to attach one of the black ground wire connections to each of the six buttons.
 
-Now you are going to wire the buttons to the free GPIO pins at the bottom of the header. Take a look at the diagram below:
+![Ground wire connected to buttons](images/ground-wire-done.png)
+
+Now take the coloured wires you made earlier and connect one crimped end to the spare terminal of each button, using exactly the same method.
+
+## Connecting the buttons to the Raspberry Pi
+
+Fit the middle section of the Astro Pi case onto the base. You should do this now as the GPIO wires will prevent it from being fitted later.
+
+Now you are going to wire the buttons to the free GPIO pins at the bottom of the header. Turn the Astro Pi case so that the Ethernet and USB ports are at the bottom, and the GPIO pins are on the right of the Raspberry Pi.
 
 ![GPIO diagram](images/buttons_GPIO.png)
 
-The pins marked in red are the spare pins on your pi, with the bottom of the diagram being the pins closest to the USB ports. 
+The pins marked in red are where you will wire up the buttons, with the bottom of the diagram being the pins closest to the USB ports. 
 
-Here are the GPIO pin assignments:
+Look at the **UNDERSIDE** of the lid, with the buttons on the left and the display hole on the right. Connect the coloured wire from each button to the corresponding pin below:
 
-- Top quad
-    - UP: GPIO 26, pin 37
-    - DOWN: GPIO 13, pin 33
-    - LEFT: GPIO 20, pin 38
-    - RIGHT: GPIO 19, pin 35
-- Bottom pair
-    - A (left): GPIO 16, pin 36
-    - B (right): GPIO: 21, pin 40
+- Top four buttons
+    - TOP: GPIO 26
+    - BOTTOM: GPIO 13
+    - LEFT: GPIO 19
+    - RIGHT: GPIO 20
+- Bottom pair of buttons
+    - Left: GPIO 21
+    - Right: GPIO 16
+
+Finally, connect the ground wire to either pin 34 or 39 (labelled ground on the GPIO diagram). 
+
+![All buttons connected](images/buttons-connected.png)
+
+The lid will now be a bit awkward until we finish, but try to position it gently so it is not in the way.
 
 
 
