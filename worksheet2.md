@@ -60,41 +60,37 @@ Our goal was to keep the 3D printed flight case as *faithful* to the original as
 
 Add the extended 23 way pin header to the Raspberry Pi GPIO pins, at the furthest end from the USB ports. Then, take an 8 mm M2.5 stand off and put a hex nut onto its thread before screwing it into the hole of the 11 mm stand off, as shown below. Do the same for the remaining three stand offs.
 
-![](images/add-header-standoffs.png)
+![Add standoffs](images/add-header-standoffs.png)
 
 WARNING|&nbsp;
 ---|---
-![](images/pi3_wifi.jpg)|Attention Pi 3 users. Using a **metal** stand off next to the wireless antenna will degrade its performance and range. The advice is to either omit this stand off from your build or use a nylon stand off and nylon screw instead.
+![Wifi antenna](images/pi3_wifi.jpg)|Attention Pi 3 users. Using a **metal** stand off next to the wireless antenna will degrade its performance and range. The advice is to either omit this stand off from your build or use a nylon stand off and nylon screw instead.
 
 Remove the GPIO connector that comes with the Sense HAT; wiggle it from side to side and it will come off without too much force. The Sense HAT can then be inserted onto the header. Note that these pins should not protrude through the top of the Sense HAT. If they do, then the height is not correct.
 
-![](images/remove-sense-hat-header.png)
+![Remove the header from the Sense HAT](images/remove-sense-hat-header.png)
 
 Finally, use the M2.5 cross head screws to secure the Sense HAT to the stand offs below.
 
-![](images/screw-in-sense-hat.png)
+![Screw in the Sense HAT](images/screw-in-sense-hat.png)
 
 ## Install the push buttons
 
-**You got to here!**
+This section assumes you are using the buttons from the Astro Pi kit. If you are using the APEM buttons or another type of buttons, these may differ in their installation.
+
+Take a button, then unscrew and remove the nut. Sometimes the nut will get stuck on the button cap, but it should come off if you wiggle it. Keep the washer on the thread.
+
+![Remove nut from button](images/buttons1.png)
+
+Keeping the washer on the thread, insert the button from the underside of the lid. Then on the top side of the lid, put the nut back on and tighten it with your fingers. Check that the connectors are aligned horizontally on the underside before tightening fully.
+
+![Insert button and screw on nut](images/buttons2.png)
+
+Do the same for the remaining buttons, and when you are done it should look like this:
+
+![Finished front and back(images/buttons3.png)
 
 If you are using the lid with the pilot holes then you'll need to check the datasheet of your chosen button type to find the *threaded bushing diameter*. Once you know this you can select a drill bit with this diameter, plus 1 mm for clearance, and proceed to drill all six holes. We recommend using a vice or G clamp to hold the lid in place while you drill. You can then install the buttons as per their requirements.
-
-The guidance below assumes you're using the APEM buttons that we used in the flight unit. These have a thread which goes through the lid from below, along with a friction washer to stop it rotating, a nut to adjust the thread depth (red star below), and then a collar to secure the button from the top. The red line below indicates where the lid should be.
-
-![](images/buttons1.png)
-
-Insert the thread along with the nut and friction washer from the underside of the lid, and then adjust the nut to the approximate position shown below. This will minimise the thread showing on top.
-
-![](images/buttons2.png)
-
-Place the collar over the threading and tighten securely. If too much thread is showing, adjust the nut on the underside again.
-
-![](images/buttons3.png)
-
-When you're done, it should look like this. Do the same for the remaining buttons.
-
-![](images/buttons4.png)
 
 ## Wire up the buttons
 
