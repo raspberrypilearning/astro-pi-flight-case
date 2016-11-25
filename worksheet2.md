@@ -92,19 +92,29 @@ Do the same for the remaining buttons, and when you are done it should look like
 
 If you are using the lid with the pilot holes then you'll need to check the datasheet of your chosen button type to find the *threaded bushing diameter*. Once you know this you can select a drill bit with this diameter, plus 1 mm for clearance, and proceed to drill all six holes. We recommend using a vice or G clamp to hold the lid in place while you drill. You can then install the buttons as per their requirements.
 
-## Wire up the buttons
+## Create the button wires
 
-Without the RTC board in the middle, you won't have a convenient way to wire the buttons to the GPIO pins of the Raspberry Pi. Because there are so many ways this can be solved, you should decide how you will do this yourself.
+Firstly you need to prepare the button wires to be able to attach them to the buttons. In the real flight unit, we soldered the button wires on to make them more reliable, but in the kit you will find jumper wires which will do the same job. The colour of the wires is not important as they are all exactly the same inside.
 
-![](images/jumper_wiring.png)
+Take a coloured wire and *without cutting it*, remove the black plastic sheath from one end by pulling it off with wire cutters or by pulling up the small tab and removing by hand. This exposes a pin connector. 
 
-To match the flight unit, you should wire the buttons to the last eight GPIO pins at the bottom of the header. **These pins don't need to be connected to the Sense HAT, so it's fine if you want to cut or bend them on the 2x20 pin PCB header (GPIO connector) as part of your solution.** You can also chop off the last 4 rows of the PCB header and put the jumper cables directly onto the Raspberry Pi pins (as shown above). Turn the rough edge to where the red star is, and this will leave the good edge for the jumper wires to fit against.
+Pass a plastic insulation boot over the pin connector, narrow end first. Then place the connector inside a crimp. 
 
-![](images/buttons_GPIO.png)
+![Crimping the wire](images/wire-crimping1.png)
 
-Note the orientation of the pin diagram is with the Ethernet and USB ports facing downwards, and the row of pins on the right-hand side of the Pi. They need to be wired in a **pull up** configuration in order to match the flight unit. Fortunately, the Raspberry Pi has all that circuitry built-in, so you can get away with just using a single wire between the button and GPIO pin.
+Alternating the angle of your pliers, squash the crimp around the wire until there is no movement whatsoever of the pin connector within the crimp. Then slide the insulation boot back up over the wire and crimp. Repeat this 6 times to create the wires we will connect to the 6 buttons.
 
-There is also a Device Tree overlay that causes these buttons to type `u`, `d`, `l`, `r`, `a` and `b` when you press them. This allows you to easily write code that uses button and joystick events at the same time.
+![Finished wire](images/wire-crimping2.png)
+
+## Create a ground wire loop
+
+## Wiring up the buttons
+
+Now you are going to wire the buttons to the free GPIO pins at the bottom of the header. Take a look at the diagram below:
+
+![GPIO diagram](images/buttons_GPIO.png)
+
+The pins marked in red are the spare pins on your pi, with the bottom of the diagram being the pins closest to the USB ports. 
 
 Here are the GPIO pin assignments:
 
@@ -117,15 +127,7 @@ Here are the GPIO pin assignments:
     - A (left): GPIO 16, pin 36
     - B (right): GPIO: 21, pin 40
 
-The APEM buttons have three poles numbered 1 to 3 (note that pole 3 is in the middle):
 
-![](images/apem_wiring.jpg)
-
-1. GPIO pin
-1. Do not connect
-1. GND
-
-We recommend that you strip back some jumper wire and solder directly onto the button contacts; however, you could also use crimped wire terminals that friction fit onto the contacts (we felt these were not reliable enough for flight).
 
 The picture below is of one of the flight units that went into space. On the right, you can see the base of the RTC board with the connector pins for the buttons. If you look at the button contacts on the left, you'll see we used only one black ground wire that went from button to button - it's fine to do this.
 
