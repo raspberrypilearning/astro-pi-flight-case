@@ -165,10 +165,29 @@ Finally, use the M2.5 cross head screws to secure the Sense HAT to the stand off
 
 ![All buttons connected](images/buttons-connected.png)
 
+## Assemble the case
+
+Once you're happy that the internals of the case are complete, you can proceed to the final assembly stage. 
+
+Take the lid and gently tuck the wires into the space on the right of the Pi as neatly as you can. Place the lid on top of the case and align the heat sink on the bottom.
+
+Take the black M4 threaded bolts and insert one through each of the holes in the corners of the case. Inserting all four bolts at this stage will help to line everything up and make it easier to secure the case with the nuts.
+
+Take one of the large hex nuts and with your index finger place it against the bottom of the bolt. Push the bolt back up so that the nut is then flush with the bottom of the case and turn the head of the nut with your finger and thumb so that it catches the bolt thread. Tighten up the nut with your fingers only. 
+
+![Hold the bolt](images/hold-bolt.png)
+
+Once all four nuts are in place you can do a final tighten with a screwdriver.
+
+Your Astro Pi is almost complete; the last thing to do is install your 3D printed joystick hat by pressing it on to the joystick.
+
+Weird fact: The real flight units use a track point cap from a Lenovo ThinkPad laptop!
+
+![Install joystick](images/install-joystick.png)
 
 ## Test the buttons
 
-Once you have all the buttons wired up, start up your Astro Pi with a monitor, keyboard and mouse connected. We need to download some files and change a few configuration settings. Firstly, download the Device Tree overlay that maps the push buttons to the corresponding keyboard keys. 
+Once you have assembled the Astro Pi, start it up with a monitor, keyboard and mouse connected. We need to download some files and change a few configuration settings. Firstly, download the Device Tree overlay that maps the push buttons to the corresponding keyboard keys. 
 
 Open a terminal and enter these commands:
 
@@ -203,28 +222,13 @@ Now let's download and run a Python test program to check everything is working.
 
 ```bash
 cd ~
-wget https://github.com/raspberrypilearning/3d-printed-astro-pi-flight-case/raw/master/test_code/pygame_test.py --no-check-certificate
+wget https://github.com/raspberrypilearning/astro-pi-flight-case/raw/master/test_code/pygame_test.py --no-check-certificate
 chmod +x pygame_test.py
 ./pygame_test.py
 ```
 
 Waggle the joystick and press all the push buttons. If everything is working, the joystick should give a direction indication and the buttons will show the corresponding letter on the LED matrix. Press `Escape` to exit.
 
-## Assemble the case
-
-Once you're happy that the internals of the case are complete, you can proceed to the final assembly stage. If you haven't done so already, now is the time to use the epoxy adhesive to join the heat sink to the base and the lid to the middle.
-
-When joining the lid to the middle, you have an opportunity to locate the lid so as to mitigate any alignment issues with the LED matrix and joystick that may have occurred from the stand offs not being quite straight. After the case is assembled, insert an M4 bolt into each corner bolt enclosure and tighten up the hex nuts on the other side.
-
-![](images/install_fit_check.png)
-
-Your Astro Pi is almost complete; the last thing to do is install the joystick hat. The flight units use a track point cap from a Lenovo ThinkPad laptop (part no 73P2698). There are plenty of cheaper alternatives available online that will work just as well.
-
-To mount the track point cap onto the Sense HAT joystick, you should chop up an empty ink tube from a BIC biro - yes, this is what's used in the Space Station unit. Cut off a short length of the tube and, with some gentle force, the tube will fit over the stump of the joystick. It will also pop off again if too much force is used, which protects the cheap joystick component inside.
-
-Fill the cavity on the base of the track point cap with some hot melt adhesive from a glue gun, and then insert the BIC tube into the soft adhesive. Allow this to cool, and then your joystick is ready for use.
-
-![](images/track_point_cap.png)
 
 ## What next?
 
