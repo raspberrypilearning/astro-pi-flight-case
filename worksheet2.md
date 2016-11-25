@@ -66,7 +66,7 @@ WARNING|&nbsp;
 ---|---
 ![Wifi antenna](images/pi3_wifi.jpg)|Attention Pi 3 users. Using a **metal** stand off next to the wireless antenna will degrade its performance and range. The advice is to either omit this stand off from your build or use a nylon stand off and nylon screw instead.
 
-Do not install the sense HAT yet as it will get in the way when you connect the GPIO pins to the buttons.
+Do not install the Sense HAT yet as it will get in the way when you connect the GPIO pins to the buttons.
 
 ## Install the push buttons
 
@@ -108,15 +108,15 @@ Take the length of black wire which should be approximately 50cm in length. Usin
 
 ![Black wire](images/wire-ushape.png)
 
-Now take a black jumper wire and remove one end to expose the connector, just as you did before. Hold the connector next to one end of one of your 10cm lengths of black wire, and pass both wires through the narrow end of an insulation boot. Insert both together into a crimp and tighten the crimp as before.
+Now take a black jumper wire and remove one end to expose the connector, just as you did before. Hold the connector next to the end of one of your 10cm lengths of black wire, and pass both wires through the narrow end of an insulation boot. Insert both wires together into a crimp and tighten the crimp as before.
 
 ![Black wire](images/ground-wire1.png)
 
-Connect up the four remaining lengths of black wire to create a chain, crimping together a new wire with the exposed bare end of the previous wire. 
+Connect up the four remaining lengths of black wire to create a chain, crimping together a new wire with the exposed bare end of the previous wire. You will be left with one bare wire end as in the photograph below.
 
 ![Black wire](images/ground-wire-loop.png)
 
-For the final end, use pliers to fold over the bare wire to make it thicker before putting this wire alone inside a crimp and tightening up as before. You should end up with a chain containing six crimped ends and one black plastic jumper end.
+For the final end, use pliers to fold over the bare wire to make it twice as thick before putting this wire alone inside a crimp and tightening up as before. You should end up with a chain containing six crimped ends and one black plastic jumper end.
 
 ## Connecting wires to the button terminals
 
@@ -149,8 +149,6 @@ Look at the **UNDERSIDE** of the lid, with the buttons on the left and the displ
 
 Finally, connect the ground wire to either pin 34 or 39 (labelled Ground on the GPIO diagram). 
 
-![All buttons connected](images/buttons-connected.png)
-
 The lid will now be a bit awkward until we finish, but try to position it gently so it is not in the way.
 
 The picture below is of one of the flight units that went into space. On the right, you can see the base of the RTC board with the connector pins for the buttons. If you look at the button contacts on the left, you'll see we used only one black ground wire that went from button to button.
@@ -165,7 +163,7 @@ Remove the GPIO connector that comes with the Sense HAT; wiggle it from side to 
 
 Finally, use the M2.5 cross head screws to secure the Sense HAT to the stand offs below.
 
-![Screw in the Sense HAT](images/screw-in-sense-hat.png)
+![All buttons connected](images/buttons-connected.png)
 
 
 ## Test the buttons
