@@ -52,7 +52,7 @@ Tip: If you are having trouble screwing the stand offs in, screw one of the silv
 
 Now you can insert the camera ribbon cable into the CSI port of the Raspberry Pi. Try to make sure the tin connectors are all level to ensure a good connection.
 
-## Install the Sense HAT
+## Install standoffs for the Sense HAT
 
 This is where we're going to deviate from what's inside the Astro Pi flight unit. The flight units have another circuit board in between the Raspberry Pi and Sense HAT which holds a real-time clock, oscillator crystal, and backup battery. This RTC board also has some pins that the six push buttons connect to. Unfortunately, this is not available to the public.
 
@@ -66,13 +66,7 @@ WARNING|&nbsp;
 ---|---
 ![Wifi antenna](images/pi3_wifi.jpg)|Attention Pi 3 users. Using a **metal** stand off next to the wireless antenna will degrade its performance and range. The advice is to either omit this stand off from your build or use a nylon stand off and nylon screw instead.
 
-Remove the GPIO connector that comes with the Sense HAT; wiggle it from side to side and it will come off without too much force. The Sense HAT can then be inserted onto the header. Note that these pins should not protrude through the top of the Sense HAT. If they do, then the height is not correct.
-
-![Remove the header from the Sense HAT](images/remove-sense-hat-header.png)
-
-Finally, use the M2.5 cross head screws to secure the Sense HAT to the stand offs below.
-
-![Screw in the Sense HAT](images/screw-in-sense-hat.png)
+Do not install the sense HAT yet as it will get in the way when you connect the GPIO pins to the buttons.
 
 ## Install the push buttons
 
@@ -145,37 +139,47 @@ The pins marked in red are where you will wire up the buttons, with the bottom o
 Look at the **UNDERSIDE** of the lid, with the buttons on the left and the display hole on the right. Connect the coloured wire from each button to the corresponding pin below:
 
 - Top four buttons
-    - TOP: GPIO 26
-    - BOTTOM: GPIO 13
-    - LEFT: GPIO 19
-    - RIGHT: GPIO 20
+    - Top: GPIO 26
+    - Bottom: GPIO 13
+    - Left: GPIO 19
+    - Right: GPIO 20
 - Bottom pair of buttons
     - Left: GPIO 21
     - Right: GPIO 16
 
-Finally, connect the ground wire to either pin 34 or 39 (labelled ground on the GPIO diagram). 
+Finally, connect the ground wire to either pin 34 or 39 (labelled Ground on the GPIO diagram). 
 
 ![All buttons connected](images/buttons-connected.png)
 
 The lid will now be a bit awkward until we finish, but try to position it gently so it is not in the way.
 
+The picture below is of one of the flight units that went into space. On the right, you can see the base of the RTC board with the connector pins for the buttons. If you look at the button contacts on the left, you'll see we used only one black ground wire that went from button to button.
 
+![Flight unit wiring](images/flight_unit_wiring.jpg)
 
-The picture below is of one of the flight units that went into space. On the right, you can see the base of the RTC board with the connector pins for the buttons. If you look at the button contacts on the left, you'll see we used only one black ground wire that went from button to button - it's fine to do this.
+## Install the Sense HAT
 
-![](images/flight_unit_wiring.jpg)
+Remove the GPIO connector that comes with the Sense HAT; wiggle it from side to side and it will come off without too much force. The Sense HAT can then be inserted onto the header. Note that these pins should not protrude through the top of the Sense HAT. If they do, then the height is not correct.
+
+![Remove the header from the Sense HAT](images/remove-sense-hat-header.png)
+
+Finally, use the M2.5 cross head screws to secure the Sense HAT to the stand offs below.
+
+![Screw in the Sense HAT](images/screw-in-sense-hat.png)
+
 
 ## Test the buttons
 
-Once you have all the buttons wired up, start up your Astro Pi with a monitor, keyboard and mouse connected. We need to download some files and change a few configuration settings. Firstly, download the Device Tree overlay that maps the push buttons to the corresponding keyboard keys. Open a terminal and enter these commands:
+Once you have all the buttons wired up, start up your Astro Pi with a monitor, keyboard and mouse connected. We need to download some files and change a few configuration settings. Firstly, download the Device Tree overlay that maps the push buttons to the corresponding keyboard keys. 
+
+Open a terminal and enter these commands:
 
 ```bash
 cd /boot/overlays
-sudo wget https://github.com/raspberrypilearning/3d-printed-astro-pi-flight-case/raw/master/dtb/astropi-keys.dtbo --no-check-certificate
-ls
+sudo wget https://github.com/raspberrypilearning/astro-pi-flight-case/raw/master/dtb/astropi-keys.dtbo --no-check-certificate
 ```
 
-Check that the file `astropi-keys.dtbo` is now showing in the list of files.
+Type `ls` and check that the file `astropi-keys.dtbo` is now showing in the list of files.
 
 Next, we need to configure `config.txt` to load this overlay:
 
@@ -197,7 +201,7 @@ Now reboot the Astro Pi.
 sudo reboot
 ```
 
-Now let's download and run a Python test program to check everything is working. The test code uses [Pygame](http://pygame.org/wiki/tutorials), so please do this on the Astro Pi's own screen and not via remote access. Open a terminal and enter these commands:
+Now let's download and run a Python test program to check everything is working. The test code uses [Pygame](http://pygame.org/wiki/tutorials), so please do this on the Astro Pi's own screen and not via remote access or it will not work. Open a terminal and enter these commands:
 
 ```bash
 cd ~
