@@ -35,7 +35,7 @@ Print **one** file from each section:
 **Part 4 - Lid**
 
 * [Lid 10mm](STL/Astro_Pi_Lid_10mm_Buttons.stl) or [Anti-warp lid 10mm](STL/anti-warping/Astro_Pi_Lid_10mm_Buttons_warp.stl) - 10mm holes, for use with the APEM buttons
-* [Lid 7mm](STL/Astro_Pi_Lid_7mm_Buttons.stl) or [Anti-warp lid 7mm](STL/anti-warping/Astro_Pi_Lid_7mm_Buttons_warp.stl) - 7mm holes, for use with the buttons from the kit
+* [Lid 7mm](STL/Astro_Pi_Lid_7mm_Buttons.stl) or [Anti-warp lid 7mm](STL/anti-warping/Astro_Pi_Lid_7mm_Buttons_warp.stl) - 7mm holes, for use with the buttons from the [CPC components kit](http://cpc.farnell.com/ucreate/uc-apk-comp1/astro-pi-component-kit-budget/dp/SC14158)
 * [Lid - 3mm](STL/Astro_Pi_Lid_3mm_Pilot_Holes.stl) or [Anti-warp lid - 3mm](STL/anti-warping/Astro_Pi_Lid_3mm_Pilot_Holes_warp.stl) - 3mm pilot holes, for drilling to fit any button size
 
 **Part 5 - Joystick**
@@ -160,7 +160,7 @@ Raspberry Pi|1|B+, 2B or 3B|Main computer
 Camera module|1|Normal or Pi NoIR|Main camera
 Sense HAT|1|&nbsp;|Main sensors
 
-If you're planning to build a full Astro Pi flight unit, you can purchase a [kit containing the required components](http://cpc.farnell.com/ucreate/uc-apk-comp1/astro-pi-component-kit-budget/dp/SC14158)
+If you're planning to build a full Astro Pi flight unit, you can purchase a [kit containing the required components](http://cpc.farnell.com/ucreate/uc-apk-comp1/astro-pi-component-kit-budget/dp/SC14158) from CPC.
 
 Part|Quantity|Info|Purpose
 ---|---|---|---
@@ -168,16 +168,16 @@ F-F Jumper wires|10|2 each of Red, Yellow, Blue, Green, Black|Connect the button
 Extended 23 way pin header|1|&nbsp;|Goes onto the GPIO pins to hold the Sense HAT at the correct height
 Insulation boot|15|&nbsp;|Insulates button wiring
 Friction fit crimp|15||Crimp wires together
-M2 cross head screw|4|Black 4mm|Fixes camera module to base
+M2 cross head screw|4|Black 4 mm|Fixes camera module to base
 M2.5 cross head screw|4|Silver 6 mm|Fixes the top of the Sense HAT to the stand offs below
 M2.5 washer|4|&nbsp;|Holds the Sense HAT at the correct height
 M2.5 nut|4|&nbsp;|Holds the Sense HAT at the correct height
 M4 hex nut|4|&nbsp;|Used in the corner bolt enclosures to hold the case together
-M4 bolt|4|30 mm|Used in the corner bolt enclosures to hold the case together
+M4 bolt|4|50 mm|Used in the corner bolt enclosures to hold the case together
 M2.5 male-to-female stand off|4|11 mm|Holds the Sense HAT at the correct height
 M2.5 male-to-female stand off|4|8 mm|Holds the Sense HAT at the correct height
 Tactile push buttons|6|&nbsp;|Function buttons
-Jumper wire|1|&nbsp;|To cut up for push button wiring
+Length of black wire|1|&nbsp;|To cut up for push button wiring
 
 ![Astro Pi actual button](images/apem.jpg)
 
