@@ -70,7 +70,7 @@ Do not install the Sense HAT yet as it will get in the way when you connect the 
 
 ## Install the push buttons
 
-This section assumes you are using the buttons from the Astro Pi kit. If you are using the APEM buttons or another type of buttons, these may differ in their installation.
+This section assumes you are using the buttons from the Astro Pi [components kit](http://cpc.farnell.com/ucreate/uc-apk-comp1/astro-pi-component-kit-budget/dp/SC14158) from CPC. If you are using the APEM buttons or another type of button, these may differ in their installation.
 
 Take a button, then unscrew and remove the nut. Sometimes the nut will get stuck on the button cap, but it should come off if you wiggle it.
 
@@ -108,7 +108,7 @@ Take the length of black wire which should be approximately 50cm in length. Usin
 
 ![Black wire](images/wire-ushape.png)
 
-Now take a black jumper wire and remove one end to expose the connector, just as you did before. Hold the connector next to the end of one of your 10cm lengths of black wire, and pass both wires through the narrow end of an insulation boot. Insert both wires together into a crimp and tighten the crimp as before.
+Now take a black jumper wire and remove the black plastic sheath from one end to expose the connector, just as you did before. Hold the connector next to the end of one of your 10cm lengths of black wire, and pass both wires through the narrow end of an insulation boot. Insert both wires together into a crimp and tighten the crimp as before.
 
 ![Black wire](images/ground-wire1.png)
 
@@ -157,7 +157,7 @@ The picture below is of one of the flight units that went into space. On the rig
 
 ## Install the Sense HAT
 
-Remove the GPIO connector that comes with the Sense HAT; wiggle it from side to side and it will come off without too much force. The Sense HAT can then be inserted onto the header. Note that these pins should not protrude through the top of the Sense HAT. If they do, then the height is not correct.
+Remove the GPIO connector that comes with the Sense HAT; wiggle it from side to side and it will come off without too much force. The Sense HAT can then be inserted onto the extended header. Note that these pins should not protrude through the top of the Sense HAT. If they do, then the height is not correct.
 
 ![Remove the header from the Sense HAT](images/remove-sense-hat-header.png)
 
