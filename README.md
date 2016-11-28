@@ -19,4 +19,4 @@ Unless otherwise specified, everything in this repository is covered by the foll
 
 ***3D Printed Astro Pi Flight Case*** by the [Raspberry Pi Foundation](http://www.raspberrypi.org) is licenced under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
 
-Based on a work at https://github.com/raspberrypilearning/3d-printed-astro-pi-flight-case
+Based on a work at https://github.com/raspberrypilearning/astro-pi-flight-case
