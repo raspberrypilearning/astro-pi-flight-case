@@ -102,9 +102,9 @@ Alternating the angle of your pliers, squash the crimp around the wire until the
 
 ## Create a ground wire loop
 
-To avoid having six more wires connected to the Raspberry Pi as ground wires, you will create a ground loop wire which connects to all of the buttons; this technique is also used in the real flight units. 
+To avoid having six more wires connected to the Raspberry Pi as ground wires, you will create a ground loop wire which connects to all of the buttons. This technique is also used in the real flight units. 
 
-Take the piece black wire, which should be approximately 50cm in length. Using a ruler and wire cutters, make five 10cm lengths. For each length, use wire strippers to expose at least 1cm of bare wire on both ends, then bend the wire into a U shape.
+Take the piece of black wire, which should be approximately 50cm in length. Using a ruler and wire cutters, make five 10cm lengths. For each length, use wire strippers to expose at least 1cm of bare wire on both ends, then bend the wire into a U shape.
 
 ![Black wire](images/wire-ushape.png)
 
