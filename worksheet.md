@@ -94,11 +94,11 @@ In order to keep the model structurally sound while printing, your 3D printer wi
 
 ### Heat sink
 
-You should be able to remove the scaffolding on the heat sink using just your hands; this part may bend slightly, so don't be too rough while doing this.
+You should be able to remove the scaffolding on the heat sink using just your hands; this part may bend slightly, so don't be too rough while you are removing the unwanted material.
 
 ![Peel off the heat sink scaffolding](images/peel-off-heatsink.png)
 
-You may choose to not print this part because it's not essential to the rest of the case, and because it's made of plastic it **will not** work as a heat sink. We've included it anyway so that you can achieve the iconic look and feel of the Astro Pi flight case.
+You may choose to not print this part because it's not essential to the rest of the case, and because it's made of plastic it **will not** work as a heat sink. We've included it, though, so that you can achieve the iconic look and feel of the Astro Pi flight case.
 
 ### Base
 
