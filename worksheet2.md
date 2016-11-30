@@ -32,11 +32,11 @@ Reconnect the `Cam` end of the ribbon cable to the camera module. Make sure that
 
 Before proceeding, line up the camera module with the support pillar pilot holes and have a look through the aperture in the base to check the alignment of the lens. The lens block of the camera module is actually glued in position at the factory, and therefore its alignment can vary slightly from camera to camera. If you find you've got an alignment issue, you should be able to manipulate the lens block between finger and thumb before you install it into the case permanently.
 
-When you're happy, use the small black M2 cross head screws to install the camera module. The screws will cut their own thread in the support pillar pilot holes, but after just a few turns you'll probably need a small screwdriver to continue.
+When you're happy, use the small black M2 cross-head screws to install the camera module. The screws will cut their own thread in the support pillar pilot holes, but after a few turns you'll probably need a small screwdriver to continue.
 
 ![Screw in the camera](images/screw-in-camera.png)
 
-Stop turning as soon as the head of the screw touches the camera module; if you tighten the screw too much it can cause the support pillar to split horizontally along the grain of the print. Furthermore, try to avoid removing and re-threading the screws as this will cut a brand new thread and, if done repeatedly, will erode the inside of the support pillar so that the screws will not hold.
+Stop turning as soon as the head of the screw touches the camera module; if you tighten the screw too much it can cause the support pillar to split horizontally along the grain of the print. Furthermore, try to avoid removing and re-threading the screws as this will cut a new thread and, if done repeatedly, will erode the inside of the support pillar so that the screws will not hold.
 
 ## Install the Raspberry Pi
 
@@ -44,31 +44,31 @@ Firstly, ensure there's no residual scaffolding material around the SD card slot
 
 ![](images/install-pi.png)
 
-Next screw in the M2.5 - 11 mm stand offs at each corner of the Pi. With some light finger pressure they will cut their own thread in the support pillar pilot holes. After a few turns you'll need to use a small pair of pliers to continue turning them. It's possible to get these to go in at a slight angle, which can lead to alignment issues with the Sense HAT later on, so do your best to make sure these go into the support pillars as straight as possible. Be careful while you do this and, again, stop turning as soon as the stand off touches the Raspberry Pi to avoid splitting the pillars horizontally along the grain of the print.
+Next screw in the M2.5 11mm stand offs at each corner of the Pi. With some light finger pressure they will cut their own thread in the support pillar pilot holes. After a few turns you'll need to use a small pair of pliers to continue turning them. It's possible to get these to go in at a slight angle, which can lead to alignment issues with the Sense HAT later on, so do your best to make sure they go into the support pillars as straight as possible. Be careful while you do this and, again, stop turning as soon as the stand off touches the Raspberry Pi to avoid splitting the pillars horizontally along the grain of the print.
 
 Tip: If you are having trouble screwing the stand offs in, screw one of the silver M2.5 cross head screws into the stand off, then use the screw head to screw the stand off into the case. Once the stand off is in place, don't forget to remove the screw.
 
 ![Use a screw to help you](images/screwing-in-tip.png)
 
-Now you can insert the camera ribbon cable into the CSI port of the Raspberry Pi. Try to make sure the tin connectors are all level to ensure a good connection.
+You can now insert the camera ribbon cable into the CSI port of the Raspberry Pi. Try to make sure the tin connectors are all level to ensure a good connection.
 
-## Install standoffs for the Sense HAT
+## Install stand offs for the Sense HAT
 
-This is where we're going to deviate from what's inside the Astro Pi flight unit. The flight units have another circuit board in between the Raspberry Pi and Sense HAT which holds a real-time clock, oscillator crystal, and backup battery. This RTC board also has some pins that the six push buttons connect to. Unfortunately, this is not available to the public.
+This is where we're going to deviate from what's inside the Astro Pi flight unit. The flight units have another circuit board in between the Raspberry Pi and Sense HAT which holds a real-time clock, an oscillator crystal, and a backup battery. This RTC board also has some pins that the six push-buttons connect to. Unfortunately, this is not available to the public.
 
-Our goal was to keep the 3D printed flight case as *faithful* to the original as possible, so the decision was taken to *not* alter it to accommodate the absence of this board. It may be possible for us to release the Gerber files for it in the future so that people can make their own. We're going to use the hex nuts of the same depth as the RTC board to compensate for its absence.
+Our goal was to keep the 3D printed flight case as faithful to the original as possible, so the decision was taken to not alter it to accommodate the absence of this board. It may be possible for us to release the Gerber files for it in the future so that people can make their own. We're going to use hex nuts of the same depth as the RTC board to compensate for its absence.
 
-Add the extended 23 way pin header to the Raspberry Pi GPIO pins, at the furthest end from the USB ports. Then, take an 8 mm M2.5 stand off and put a hex nut onto its thread before screwing it into the hole of the 11 mm stand off, as shown below. Do the same for the remaining three stand offs.
+Add the extended 23-way pin header to the Raspberry Pi GPIO pins, at the furthest end from the USB ports. Then, take an 8mm M2.5 stand off and put a hex nut onto its thread before screwing it into the hole of the 11mm stand off, as shown below. Do the same for the remaining three stand offs.
 
 ![Add standoffs](images/add-header-standoffs.png)
 
 WARNING|&nbsp;
 ---|---
-![Wifi antenna](images/pi3_wifi.jpg)|Attention Pi 3 users. Using a **metal** stand off next to the wireless antenna will degrade its performance and range. The advice is to either omit this stand off from your build or use a nylon stand off and nylon screw instead.
+![Wifi antenna](images/pi3_wifi.jpg)|A note fo Pi 3 users. Using a **metal** stand off next to the wireless antenna will degrade its performance and range. The advice is to either omit this stand off from your build or to use a nylon stand off and nylon screw instead.
 
 Do not install the Sense HAT yet as it will get in the way when you connect the GPIO pins to the buttons.
 
-## Install the push buttons
+## Install the push-buttons
 
 This section assumes you are using the buttons from the Astro Pi [components kit](http://cpc.farnell.com/ucreate/uc-apk-comp1/astro-pi-component-kit-budget/dp/SC14158) from CPC. If you are using the APEM buttons or another type of button, these may differ in their installation.
 
@@ -80,31 +80,31 @@ Keeping the washer on the thread, insert the button from the underside of the li
 
 ![Insert button and screw on nut](images/buttons2.png)
 
-Do the same for the remaining buttons, and when you are done it should look like this:
+Do the same for the remaining buttons; when you are done it should look like this:
 
 ![Finished front and back](images/buttons3.png)
 
-If you are using the lid with the pilot holes then you'll need to check the datasheet of your chosen button type to find the *threaded bushing diameter*. Once you know this you can select a drill bit with this diameter, plus 1 mm for clearance, and proceed to drill all six holes. We recommend using a vice or G clamp to hold the lid in place while you drill. You can then install the buttons as per their requirements.
+If you are using the lid with the pilot holes then you'll need to check the datasheet for your chosen button type to find the **threaded bushing diameter**. Once you know this you can select a drill bit with this diameter, plus 1mm for clearance, and proceed to drill all six holes. We recommend using a vice or G clamp to hold the lid in place while you drill. You can then install the buttons as per their requirements.
 
 ## Create the button wires
 
 Firstly you need to prepare the button wires to be able to attach them to the buttons. In the real flight unit, we soldered the button wires on to make them more reliable, but in the kit you will find jumper wires which will do the same job. The colour of the wires is not important as they are all exactly the same inside.
 
-Take a coloured wire and *without cutting it*, remove the black plastic sheath from **one** end by pulling it off with wire cutters or by pulling up the small tab and removing by hand. This exposes a pin connector. 
+Take a coloured wire and, without cutting it, remove the black plastic sheath from **one** end. You can do this by pulling it off with wire cutters or by pulling up the small tab and removing it by hand. This exposes a pin connector. 
 
 Pass a plastic insulation boot over the pin connector, narrow end first, and slide it out of the way down the wire. Then place the connector inside a crimp. 
 
 ![Crimping the wire](images/wire-crimping1.png)
 
-Alternating the angle of your pliers, squash the crimp around the wire until there is no movement whatsoever of the pin connector within the crimp. Then slide the insulation boot back up over the wire and crimp. Repeat this 6 times with coloured wires to create the wires we will connect to the 6 buttons.
+Alternating the angle of your pliers, squash the crimp around the wire until there is no movement whatsoever of the pin connector within the crimp. Then slide the insulation boot back up over the wire and crimp. Repeat this six times with the other coloured jumper wires to create the wires we will connect to the six buttons.
 
 ![Finished wire](images/wire-crimping2.png)
 
 ## Create a ground wire loop
 
-To avoid having 6 more wires connected to the Raspberry Pi as ground wires, you will create a ground loop wire which connects to all of the buttons - this technique is also used in the real flight units. 
+To avoid having six more wires connected to the Raspberry Pi as ground wires, you will create a ground loop wire which connects to all of the buttons; this technique is also used in the real flight units. 
 
-Take the length of black wire which should be approximately 50cm in length. Using a ruler and wire cutters, make five 10cm lengths. For each length, use wire strippers to expose at least 1cm of bare wire on both ends, then bend the wire into a U shape.
+Take the piece black wire, which should be approximately 50cm in length. Using a ruler and wire cutters, make five 10cm lengths. For each length, use wire strippers to expose at least 1cm of bare wire on both ends, then bend the wire into a U shape.
 
 ![Black wire](images/wire-ushape.png)
 
@@ -116,11 +116,11 @@ Connect up the four remaining lengths of black wire to create a chain, crimping 
 
 ![Black wire](images/ground-wire-loop.png)
 
-For the final end, use pliers to fold over the bare wire to make it twice as thick before putting this wire alone inside a crimp and tightening up as before. You should end up with a chain containing six crimped ends and one black plastic jumper end.
+For the final end, use pliers to fold the bare wire over to make it twice as thick before putting this wire alone inside a crimp and tightening up as before. You should end up with a chain containing six crimped ends and one black plastic jumper end.
 
 ## Connecting wires to the button terminals
 
-First you will connect your ground loop to the buttons. Starting with the top button, take the crimped wire end furthest from the black plastic jumper lead. Slide down the insulation boot, hold the crimp between finger and thumb and push it all the way onto the button terminal. Once the crimp is firmly in place, slide the insulation boot back up. Repeat to attach one of the black ground wire connections to each of the six buttons.
+First you will connect your ground loop to the buttons. Starting with the top button, take the crimped wire end furthest from the black plastic jumper lead. Slide the insulation boot down, hold the crimp between finger and thumb and push it all the way onto the button terminal. Once the crimp is firmly in place, slide the insulation boot back up. Repeat to attach one of the black ground wire connections to each of the six buttons.
 
 ![Ground wire connected to buttons](images/ground-wire-done.png)
 
@@ -161,7 +161,7 @@ Remove the GPIO connector that comes with the Sense HAT; wiggle it from side to 
 
 ![Remove the header from the Sense HAT](images/remove-sense-hat-header.png)
 
-Finally, use the M2.5 cross head screws to secure the Sense HAT to the stand offs below.
+Finally, use the M2.5 cross-head screws to secure the Sense HAT to the stand offs below.
 
 ![All buttons connected](images/buttons-connected.png)
 
@@ -173,29 +173,27 @@ Take the lid and gently tuck the wires into the space on the right of the Pi as 
 
 Take the black M4 threaded bolts and insert one through each of the holes in the corners of the case. Inserting all four bolts at this stage will help to line everything up and make it easier to secure the case with the nuts.
 
-Take one of the large hex nuts and with your index finger place it against the bottom of the bolt. Push the bolt back up so that the nut is then flush with the bottom of the case and turn the head of the nut with your finger and thumb so that it catches the bolt thread. Tighten up the nut with your fingers only. 
+Take one of the large hex nuts and with your index finger place it against the bottom of the bolt. Push the bolt back up so that the nut is then flush with the bottom of the case and turn the head of the nut with your finger and thumb so that it catches the bolt thread. Tighten the nut with your fingers only. 
 
 ![Hold the bolt](images/hold-bolt.png)
 
 Once all four nuts are in place you can do a final tighten with a screwdriver.
 
-Your Astro Pi is almost complete; the last thing to do is install your 3D printed joystick hat by pressing it on to the joystick.
-
-Weird fact: The real flight units use a track point cap from a Lenovo ThinkPad laptop!
+Your Astro Pi is almost complete; the last thing to do is install your 3D-printed joystick hat by pressing it onto the joystick. For this, the real flight units use a track point cap from a Lenovo ThinkPad laptop!
 
 ![Install joystick](images/install-joystick.png)
 
 ## Test the buttons
 
-Once you have assembled the Astro Pi, start it up with a monitor, keyboard and mouse connected.
+Once you have assembled the Astro Pi, start it up with a monitor, keyboard, and mouse connected.
 
-If you have the ESA branded Astro Pi kit, when you turn the Astro Pi on, the rainbow pattern on the LED matrix should disappear after a few seconds and the push buttons should now type letters. You can test this in the terminal. You can run the test program at the bottom of this section.
+If you have the ESA-branded Astro Pi kit, when you turn the Astro Pi on, the rainbow pattern on the LED matrix should disappear after a few seconds and the push buttons should now type letters. You can test this in the terminal by running the test program at the bottom of this section.
 
-If you do not have the ESA branded Astro Pi kit, when you turn the Astro Pi on, the rainbow pattern on the LED matrix will remain forever and the buttons will not work yet.
+If you do not have the ESA-branded Astro Pi kit, when you turn the Astro Pi on, the rainbow pattern on the LED matrix will remain and the buttons will not work yet.
 
 You will need to download some files and change a few configuration settings, so make sure your Astro Pi is online. Firstly, download the Device Tree overlay that maps the push buttons to the corresponding keyboard keys. 
 
-Open a terminal and enter these commands:
+Open a terminal window and enter these commands:
 
 ```bash
 cd /boot/overlays
@@ -225,7 +223,7 @@ Now reboot the Astro Pi.
 sudo reboot
 ```
 
-Now let's download and run a Python test program to check everything is working. The test code uses [Pygame](http://pygame.org/wiki/tutorials), so please do this on a directly connected monitor and not via remote access or it will not work. Open a terminal and enter these commands:
+Now let's download and run a Python test program to check everything is working. The test code uses [Pygame](http://pygame.org/wiki/tutorials), so please do this on a directly connected monitor. It will not work via remote access. Open a terminal window and enter these commands:
 
 ```bash
 cd ~
@@ -234,7 +232,7 @@ chmod +x pygame_test.py
 ./pygame_test.py
 ```
 
-Waggle the joystick and press all the push buttons. If everything is working, the joystick should give a direction indication and the buttons will show the corresponding letter on the LED matrix. Press `Escape` to exit.
+Wiggle the joystick and press all push-buttons. If everything is working, the joystick should give a direction indication and the buttons will show the corresponding letter on the LED matrix. Press `Escape` to exit.
 
 
 ## What next?
