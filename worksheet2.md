@@ -64,7 +64,7 @@ Add the extended 23-way pin header to the Raspberry Pi GPIO pins, at the furthes
 
 WARNING|&nbsp;
 ---|---
-![Wifi antenna](images/pi3_wifi.jpg)|A note fo Pi 3 users. Using a **metal** stand off next to the wireless antenna will degrade its performance and range. The advice is to either omit this stand off from your build or to use a nylon stand off and nylon screw instead.
+![Wifi antenna](images/pi3_wifi.jpg)|A note for Pi 3 users. Using a **metal** stand off next to the wireless antenna will degrade its performance and range. The advice is to either omit this stand off from your build or to use a nylon stand off and nylon screw instead.
 
 Do not install the Sense HAT yet as it will get in the way when you connect the GPIO pins to the buttons.
 
