@@ -156,7 +156,7 @@ Alongside your 3D-printed parts, check that you have all of the other parts requ
 
 Part|Quantity|Info|Purpose
 ---|---|---|---
-Raspberry Pi|1|B+, 2B or 3B|Main computer
+Raspberry Pi|1|B+, Pi 2, or Pi 3|Main computer
 Camera module|1|Normal or Pi NoIR|Main camera
 Sense HAT|1|&nbsp;|Main sensors
 
@@ -164,20 +164,20 @@ If you're planning to build a full Astro Pi flight unit, you can purchase a [kit
 
 Part|Quantity|Info|Purpose
 ---|---|---|---
-F-F Jumper wires|10|2 each of Red, Yellow, Blue, Green, Black|Connect the buttons
-Extended 23 way pin header|1|&nbsp;|Goes onto the GPIO pins to hold the Sense HAT at the correct height
+F-F Jumper wires|10|Two each of red, yellow, blue, green, black|Connecting the buttons
+Extended 23-way pin header|1|&nbsp;|Goes onto the GPIO pins to hold the Sense HAT at the correct height
 Insulation boot|15|&nbsp;|Insulates button wiring
-Friction fit crimp|15||Crimp wires together
-M2 cross head screw|4|Black 4 mm|Fixes camera module to base
-M2.5 cross head screw|4|Silver 6 mm|Fixes the top of the Sense HAT to the stand offs below
+Friction fit crimp|15||Crimping wires together
+M2 cross-head screw|4|Black 4 mm|Fixes camera module to base
+M2.5 cross-head screw|4|Silver 6 mm|Fixes the top of the Sense HAT to the stand offs below
 M2.5 washer|4|&nbsp;|Holds the Sense HAT at the correct height
 M2.5 nut|4|&nbsp;|Holds the Sense HAT at the correct height
 M4 hex nut|4|&nbsp;|Used in the corner bolt enclosures to hold the case together
 M4 bolt|4|50 mm|Used in the corner bolt enclosures to hold the case together
 M2.5 male-to-female stand off|4|11 mm|Holds the Sense HAT at the correct height
 M2.5 male-to-female stand off|4|8 mm|Holds the Sense HAT at the correct height
-Tactile push buttons|6|&nbsp;|Function buttons
-Length of black wire|1|&nbsp;|To cut up for push button wiring
+Tactile push-buttons|6|&nbsp;|Function buttons
+Length of black wire|1|&nbsp;|To cut up for push-button wiring
 
 ![Astro Pi actual button](images/apem.jpg)
 
@@ -188,7 +188,7 @@ The kit already contains buttons, but if you want to buy the exact buttons used 
 
 You're also going to need the following tools:
 
-- Small cross head screwdriver
+- Small cross-head screwdriver
 - Small pair of pliers
 - Craft knife or scalpel
 - Sand paper
