@@ -1,6 +1,6 @@
-- name: Raspberry Pi camera module
+- name: Raspberry Pi Camera Module
   img: camera
-- name: NoIR camera module (alternative)
+- name: NoIR Camera Module (alternative)
   img: camera-noir
 - name: Sense HAT
   img: sense-hat
