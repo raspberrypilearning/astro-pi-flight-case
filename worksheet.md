@@ -48,7 +48,7 @@ Most importantly, the case has been sliced into four parts. This has been done t
 
 ## Safety first
 
-**It is important that you observe the correct safety procedures specified in the safety data sheet for your specific 3D printer.**
+**It is important that you observe the correct safety procedures specified in the data sheet for your specific 3D printer.**
 
 Potential hazards include:
 
@@ -59,7 +59,7 @@ Potential hazards include:
 
 ## Print each part
 
-The 3D printer we used for the black parts shown below was an [Up Plus 2](https://www.3dhubs.com/3d-printers/up-plus-2), called the Afinia H480 in the US, using ABS filament. Because there are so many different types of 3D printer, we cannot possibly provide instructions for them all, so we can only provide rough guidance here and you'll need to figure out the rest on your own.
+The 3D printer we used for the black parts shown was an [Up Plus 2](https://www.3dhubs.com/3d-printers/up-plus-2), called the Afinia H480 in the US, using ABS filament. Because there are so many different types of 3D printer, we cannot possibly provide instructions for them all. We can only provide rough guidance here and you'll need to figure out the rest on your own.
 
 Here are some top tips though:
 
@@ -98,7 +98,7 @@ You should be able to remove the scaffolding on the heat sink using just your ha
 
 ![Peel off the heat sink scaffolding](images/peel-off-heatsink.png)
 
-You may choose to not print this part because it's not essential to the rest of the case, and because it's made of plastic it *will not* work as a heat sink. We've included it anyway so that you can achieve the iconic look and feel of the Astro Pi flight case.
+You may choose to not print this part because it's not essential to the rest of the case, and because it's made of plastic it **will not** work as a heat sink. We've included it anyway so that you can achieve the iconic look and feel of the Astro Pi flight case.
 
 ### Base
 
@@ -112,13 +112,13 @@ If the scaffolding breaks off unintentionally, carefully prise up the remaining 
 
 Don't worry if you scuff the surface with the scalpel as the rough side of the print will not be visible when the case is assembled.
 
-Don't forget to also clear the material around the SD card slot, this is easily done with pliers.
+Don't forget to clear the material around the SD card slot; this can easily be done with pliers.
 
 ![Clear the SD card slot](images/sd-card-slot.png)
 
 ### Middle
 
-Again, the scaffolding should come away easily by peeling with your fingers.
+Again, the scaffolding should come away easily by peeling it with your fingers.
 
 ![Peel off the middle scaffolding](images/peel-off-middle.png)
 
@@ -128,11 +128,11 @@ Peel off the bottom layer of scaffolding as before.
 
 ![When you first peel off the lid](images/lid-first-peel.png)
 
-However, there are a few sunken holes on the underside that must also be cleared of material. These are present to prevent the lid from striking the Raspberry Pi hardware when installed into the case. You'll need a scalpel or craft knife to dig into it.
+However, there are a few sunken holes on the underside that must also be cleared of material. These are present to prevent the lid from striking the Raspberry Pi hardware when it is installed in the case. You'll need a scalpel or craft knife to dig into it.
 
 ![Use a scalpel to lift the scaffold](images/inner-scalpel.png)
 
-Once you've managed to lift some of it, use a pair of small pliers to remove the rest of the material. The areas marked with a red star below need the same treatment.
+Once you've managed to lift some of it, use a small pair of pliers to remove the rest of the material. The areas marked with a red star below need the same treatment.
 
 ![Stars show which bits need to be removed](images/lid-with-stars.png)
 
@@ -152,7 +152,7 @@ Don't worry about any imperfections or residue from the scaffolding at this stag
 
 ![All required components](images/all-components.png)
 
-Alongside your 3D printed parts, check that you have all of the other parts required before you start:
+Alongside your 3D-printed parts, check that you have all of the other parts required before you start:
 
 Part|Quantity|Info|Purpose
 ---|---|---|---
@@ -181,7 +181,7 @@ Length of black wire|1|&nbsp;|To cut up for push button wiring
 
 ![Astro Pi actual button](images/apem.jpg)
 
-The kit already contains buttons, but if you want to buy the exact buttons used in the Astro Pi flight unit, the details are below. At about £9 each they are expensive, because they're designed to survive an enormous number of clicks before wearing out - necessary for a 7-year space mission.
+The kit already contains buttons, but if you want to buy the exact buttons used in the Astro Pi flight unit, the details are below. At about £9 each they are expensive, because they're designed to survive an enormous number of clicks before wearing out, which is necessary for a seven-year space mission.
 
 - Manufacturer: APEM
 - Manufacturer Part No: 104350003
