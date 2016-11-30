@@ -30,7 +30,7 @@ You don't need to get this perfect for it to work, but try to get it as close as
 
 Reconnect the **Cam** end of the ribbon cable to the camera module. Make sure that the tin connectors are facing the front and the blue tab is on the back.
 
-Before proceeding, line up the camera module with the support pillar pilot holes and have a look through the aperture in the base to check the alignment of the lens. The lens block of the camera module is actually glued in position at the factory, and therefore its alignment can vary slightly from camera to camera. If you find you've got an alignment issue, you should be able to manipulate the lens block between finger and thumb before you install it into the case permanently.
+Before proceeding, line the camera module up with the support pillar pilot holes and have a look through the aperture in the base to check the alignment of the lens. The lens block of the camera module is actually glued in position at the factory, and therefore its alignment can vary slightly from camera to camera. If you find you've got an alignment issue, you should be able to manipulate the lens block between finger and thumb before you install it into the case permanently.
 
 When you're happy, use the small black M2 cross-head screws to install the camera module. The screws will cut their own thread in the support pillar pilot holes, but after a few turns you'll probably need a small screwdriver to continue.
 
