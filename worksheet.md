@@ -25,7 +25,7 @@ Print **one** file from each section:
 
 **Part 2 - Base**
 
-* [Base for Pi 1 or 2](STL/Astro_Pi_Base_Pi1_or_2.stl) or [Anti-warp base for Pi 1 or 2](STL/anti-warping/Astro_Pi_Base_Pi1_or_2_warp.stl)
+* [Base for Model B/B+ or Pi 2](STL/Astro_Pi_Base_Pi1_or_2.stl) or [Anti-warp base for Model B/B+ or Pi 2](STL/anti-warping/Astro_Pi_Base_Pi1_or_2_warp.stl)
 * [Base for Pi 3](STL/Astro_Pi_Base_Pi3.stl) or [Anti-warp base for Pi 3](STL/anti-warping/Astro_Pi_Base_Pi3_warp.stl)
 
 **Part 3 - Middle**
