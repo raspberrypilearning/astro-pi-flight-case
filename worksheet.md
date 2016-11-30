@@ -42,9 +42,9 @@ Print **one** file from each section:
 
 * [Joystick](STL/Astro_Pi_Joystick.stl)
 
-The 3D files don't exactly match those used to make the aluminium flight cases on the Space Station. They have been modified to make them compatible with 3D printers, so that most people who attempt this will achieve success without difficulty.
+The 3D files don't exactly match those used to make the aluminium flight cases on the International Space Station. They have been modified to make them compatible with 3D printers, so that most people who attempt this will achieve success without difficulty.
 
-Most notably, the case has been sliced into four parts. This has been done to minimise the amount of rafting and scaffolding that needs to be printed along with the model, and also reduces the time you spend cleaning up the final prints.
+Most importantly, the case has been sliced into four parts. This has been done to minimise the amount of rafting and scaffolding that needs to be printed along with the model. It also reduces the amount of time you spend cleaning up the final prints.
 
 ## Safety first
 
