@@ -6,7 +6,7 @@ When you're happy with the 3D-printed parts you can proceed with installing the 
 
 ## Fold the camera ribbon
 
-Getting the camera into the case can be a little tricky but here is how we did it for the flight units. Firstly, lift the two tabs on either side of the camera module to disconnect the ribbon cable from the camera. Then fold the ribbon. These folds allow the camera cable to come up the side of the Raspberry Pi with enough flex to insert into the CSI camera port (see further down).
+Getting the camera into the case can be a little tricky but here is how we did it for the flight units. Firstly, lift the two tabs on either side of the Camera Module to disconnect the ribbon cable from the camera. Then fold the ribbon. These folds allow the camera cable to come up the side of the Raspberry Pi with enough flex to insert into the CSI camera port (see further down).
 
 1. Lay the ribbon out with the writing face up and the visible connectors on the left. At 1cm along the ribbon, fold the ribbon downwards.
 
@@ -16,7 +16,7 @@ Getting the camera into the case can be a little tricky but here is how we did i
 
   ![Fold 4cm right](images/cam-fold2.png)
 
-3. Finally, measuring 4cm from the bottom left corner, fold the ribbon upwards.
+3. Finally, measuring 4cm from the bottom-left corner, fold the ribbon upwards.
 
   ![Fold 1cm](images/cam-fold3.png)
 
@@ -28,25 +28,25 @@ You don't need to get this perfect for it to work, but try to get it as close as
 
 ## Install the camera
 
-Reconnect the **Cam** end of the ribbon cable to the camera module. Make sure that the tin connectors are facing the front and the blue tab is on the back.
+Reconnect the **Cam** end of the ribbon cable to the Camera Module. Make sure that the tin connectors are facing the front and the blue tab is on the back.
 
-Before proceeding, line the camera module up with the support pillar pilot holes and have a look through the aperture in the base to check the alignment of the lens. The lens block of the camera module is actually glued in position at the factory, and therefore its alignment can vary slightly from camera to camera. If you find you've got an alignment issue, you should be able to manipulate the lens block between finger and thumb before you install it into the case permanently.
+Before proceeding, line the Camera Module up with the support pillar pilot holes and have a look through the aperture in the base to check the alignment of the lens. The lens block of the Camera Module is actually glued in position at the factory, and therefore its alignment can vary slightly from camera to camera. If you find you've got an alignment issue, you should be able to manipulate the lens block between finger and thumb before you install it into the case permanently.
 
-When you're happy, use the small black M2 cross-head screws to install the camera module. The screws will cut their own thread in the support pillar pilot holes, but after a few turns you'll probably need a small screwdriver to continue.
+When you're happy, use the small black M2 cross-head screws to install the Camera Module. The screws will cut their own thread in the support pillar pilot holes, but after a few turns you'll probably need a small screwdriver to continue.
 
 ![Screw in the camera](images/screw-in-camera.png)
 
-Stop turning as soon as the head of the screw touches the camera module; if you tighten the screw too much it can cause the support pillar to split horizontally along the grain of the print. Furthermore, try to avoid removing and re-threading the screws as this will cut a new thread and, if done repeatedly, will erode the inside of the support pillar so that the screws will not hold.
+Stop turning as soon as the head of the screw touches the Camera Module; if you tighten the screw too much it can cause the support pillar to split horizontally along the grain of the print. Furthermore, try to avoid removing and re-threading the screws as this will cut a new thread and, if done repeatedly, will erode the inside of the support pillar so that the screws will not hold.
 
 ## Install the Raspberry Pi
 
-Firstly, ensure there's no residual scaffolding material around the SD card slot or LED holes that might prevent the Raspberry Pi from lining up with the mounting pillars. Once you're happy, line the Raspberry Pi up and do a fit check. Verify that it doesn't touch the camera module below it. Don't insert the camera ribbon cable just yet, as this will make the next job awkward.
+Firstly, ensure there's no residual scaffolding material around the SD card slot or LED holes that might prevent the Raspberry Pi from lining up with the mounting pillars. Once you're happy, line the Raspberry Pi up and do a fit check. Verify that it doesn't touch the Camera Module below it. Don't insert the camera ribbon cable just yet, as this will make the next job awkward.
 
 ![](images/install-pi.png)
 
-Next screw the M2.5 11mm stand offs into each corner of the Pi. With some light finger pressure they will cut their own thread in the support pillar pilot holes. After a few turns you'll need to use a small pair of pliers to continue turning them. It's possible to get these to go in at a slight angle, which can lead to alignment issues with the Sense HAT later on, so do your best to make sure they go into the support pillars as straight as possible. Be careful while you do this and, again, stop turning as soon as the stand off touches the Raspberry Pi to avoid splitting the pillars horizontally along the grain of the print.
+Next, screw the M2.5 11mm stand offs into each corner of the Pi. With some light finger pressure they will cut their own thread in the support pillar pilot holes. After a few turns you'll need to use a small pair of pliers to continue turning them. It's possible to get these to go in at a slight angle, which can lead to alignment issues with the Sense HAT later on, so do your best to make sure they go into the support pillars as straight as possible. Be careful while you do this and, again, stop turning as soon as the stand off touches the Raspberry Pi to avoid splitting the pillars horizontally along the grain of the print.
 
-If you are having trouble screwing the stand offs in, screw one of the silver M2.5 cross head screws into the stand off, then use the screw head to screw the stand off into the case. Once the stand off is in place, don't forget to remove the screw.
+If you are having trouble screwing in the stand offs, screw one of the silver M2.5 cross head screws into the stand off, then use the screw head to screw the stand off into the case. Once the stand off is in place, don't forget to remove the screw.
 
 ![Use a screw to help you](images/screwing-in-tip.png)
 
@@ -64,7 +64,7 @@ Add the extended 23-way pin header to the Raspberry Pi GPIO pins, at the furthes
 
 WARNING|&nbsp;
 ---|---
-![Wifi antenna](images/pi3_wifi.jpg)|A note for Pi 3 users. Using a **metal** stand off next to the wireless antenna will degrade its performance and range. The advice is to either omit this stand off from your build or to use a nylon stand off and nylon screw instead.
+![WiFi antenna](images/pi3_wifi.jpg)|A note for Pi 3 users. Using a **metal** stand off next to the wireless antenna will degrade its performance and range. The advice is to either omit this stand off from your build or to use a nylon stand off and nylon screw instead.
 
 Do not install the Sense HAT yet as it will get in the way when you connect the GPIO pins to the buttons.
 
@@ -88,7 +88,7 @@ If you are using the lid with the pilot holes then you'll need to check the data
 
 ## Create the button wires
 
-Firstly you need to prepare the button wires to be able to attach them to the buttons. In the real flight unit, we soldered the button wires on to make them more reliable, but in the kit you will find jumper wires which will do the same job. The colour of the wires is not important as they are all exactly the same inside.
+Firstly, you need to prepare the button wires to be able to attach them to the buttons. In the real flight unit, we soldered the button wires on to make them more reliable, but in the kit you will find jumper wires which will do the same job. The colour of the wires is not important as they are all exactly the same inside.
 
 Take a coloured wire and, without cutting it, remove the black plastic sheath from **one** end. You can do this by pulling it off with wire cutters or by pulling up the small tab and removing it by hand. This exposes a pin connector. 
 
@@ -120,7 +120,7 @@ For the final end, use pliers to fold the bare wire over to make it twice as thi
 
 ## Connecting wires to the button terminals
 
-First you will connect your ground loop to the buttons. Starting with the top button, take the crimped wire end furthest from the black plastic jumper lead. Slide the insulation boot down, hold the crimp between finger and thumb and push it all the way onto the button terminal. Once the crimp is firmly in place, slide the insulation boot back up. Repeat to attach one of the black ground wire connections to each of the six buttons.
+First, you will connect your ground loop to the buttons. Starting with the top button, take the crimped wire end furthest from the black plastic jumper lead. Slide the insulation boot down, hold the crimp between finger and thumb and push it all the way onto the button terminal. Once the crimp is firmly in place, slide the insulation boot back up. Repeat to attach one of the black ground wire connections to each of the six buttons.
 
 ![Ground wire connected to buttons](images/ground-wire-done.png)
 
@@ -173,13 +173,13 @@ Take the lid and gently tuck the wires into the space on the right of the Pi as 
 
 Take the black M4 threaded bolts and insert one through each of the holes in the corners of the case. Inserting all four bolts at this stage will help to line everything up and make it easier to secure the case with the nuts.
 
-Take one of the large hex nuts and with your index finger place it against the bottom of the bolt. Push the bolt back up so that the nut is then flush with the bottom of the case and turn the head of the nut with your finger and thumb so that it catches the bolt thread. Tighten the nut with your fingers only. 
+Take one of the large hex nuts and with your index finger place it against the bottom of the bolt. Push the bolt back up so that the nut is then flush with the bottom of the case, and turn the head of the nut with your finger and thumb so that it catches the bolt thread. Tighten the nut with your fingers only. 
 
 ![Hold the bolt](images/hold-bolt.png)
 
 Once all four nuts are in place you can do a final tighten with a screwdriver.
 
-Your Astro Pi is almost complete; the last thing to do is install your 3D-printed joystick hat by pressing it onto the joystick. For this, the real flight units use a track point cap from a Lenovo ThinkPad laptop!
+Your Astro Pi is almost complete; the last thing to do is install your 3D-printed joystick hat by pressing it onto the joystick. For this, the real flight units use a TrackPoint cap from a Lenovo ThinkPad laptop!
 
 ![Install joystick](images/install-joystick.png)
 
@@ -187,11 +187,11 @@ Your Astro Pi is almost complete; the last thing to do is install your 3D-printe
 
 Once you have assembled the Astro Pi, start it up with a monitor, keyboard, and mouse connected.
 
-If you have the ESA-branded Astro Pi kit, when you turn the Astro Pi on, the rainbow pattern on the LED matrix should disappear after a few seconds and the push buttons should now type letters. You can test this in the terminal by running the test program at the bottom of this section.
+If you have the ESA-branded Astro Pi kit, when you turn the Astro Pi on, the rainbow pattern on the LED matrix should disappear after a few seconds and the push-buttons should now type letters. You can test this in the terminal by running the test program at the bottom of this section.
 
 If you do not have the ESA-branded Astro Pi kit, when you turn the Astro Pi on, the rainbow pattern on the LED matrix will remain and the buttons will not work yet.
 
-You will need to download some files and change a few configuration settings, so make sure your Astro Pi is online. Firstly, download the Device Tree overlay that maps the push buttons to the corresponding keyboard keys. 
+You will need to download some files and change a few configuration settings, so make sure your Astro Pi is online. Firstly, download the Device Tree overlay that maps the push-buttons to the corresponding keyboard keys. 
 
 Open a terminal window and enter these commands:
 
