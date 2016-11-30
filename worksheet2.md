@@ -136,7 +136,7 @@ Now you are going to wire the buttons to the free GPIO pins at the bottom of the
 
 The pins marked in red are where you will wire up the buttons, with the bottom of the diagram being the pins closest to the USB ports. 
 
-Look at the **UNDERSIDE** of the lid, with the buttons on the left and the display hole on the right. Connect the coloured wire from each button to the corresponding pin below:
+Look at the **underside** of the lid, with the buttons on the left and the display hole on the right. Connect the coloured wire from each button to the corresponding pin below:
 
 - Top four buttons
     - Top: GPIO 26
