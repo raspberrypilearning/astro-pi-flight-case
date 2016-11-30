@@ -215,7 +215,7 @@ dtoverlay=rpi-sense
 dtoverlay=astropi-keys
 ```
 
-Press `Ctrl - O` then `Enter` to save, followed by `Ctrl - X` to quit.
+Press `Ctrl` + `O` then `Enter` to save, followed by `Ctrl` + `X` to quit.
 
 Now reboot the Astro Pi.
 
