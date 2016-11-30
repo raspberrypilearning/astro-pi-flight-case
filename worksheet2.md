@@ -237,7 +237,7 @@ Wiggle the joystick and press all push-buttons. If everything is working, the jo
 
 ## What next?
 
-We've deliberately not shown a really polished gorgeous case, because we're hoping you'll go the extra mile and blow our socks off. Please show us your cases by tweeting pictures of them to `@astro_pi` and `@raspberry_pi`!
+We've deliberately not shown a really polished gorgeous case, because we're hoping you'll go the extra mile and blow our socks off. Please show us your cases by tweeting pictures of them to [@astro_pi](https://twitter.com/astro_pi) and [@raspberry_pi](https://twitter.com/Raspberry_Pi)!
 
 Here are some further ideas for customising your case:
 
