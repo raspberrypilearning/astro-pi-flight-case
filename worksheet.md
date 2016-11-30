@@ -169,13 +169,13 @@ Extended 23-way pin header|1|&nbsp;|Goes onto the GPIO pins to hold the Sense HA
 Insulation boot|15|&nbsp;|Insulates button wiring
 Friction fit crimp|15||Crimping wires together
 M2 cross-head screw|4|Black 4 mm|Fixes camera module to base
-M2.5 cross-head screw|4|Silver 6 mm|Fixes the top of the Sense HAT to the standoffs below
+M2.5 cross-head screw|4|Silver 6 mm|Fixes the top of the Sense HAT to the stand offs below
 M2.5 washer|4|&nbsp;|Holds the Sense HAT at the correct height
 M2.5 nut|4|&nbsp;|Holds the Sense HAT at the correct height
 M4 hex nut|4|&nbsp;|Used in the corner bolt enclosures to hold the case together
 M4 bolt|4|50 mm|Used in the corner bolt enclosures to hold the case together
-M2.5 male-to-female standoff|4|11 mm|Holds the Sense HAT at the correct height
-M2.5 male-to-female standoff|4|8 mm|Holds the Sense HAT at the correct height
+M2.5 male-to-female stand off|4|11 mm|Holds the Sense HAT at the correct height
+M2.5 male-to-female stand off|4|8 mm|Holds the Sense HAT at the correct height
 Tactile push-buttons|6|&nbsp;|Function buttons
 Length of black wire|1|&nbsp;|To cut up for push-button wiring
 
