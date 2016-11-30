@@ -36,7 +36,7 @@ Print **one** file from each section:
 
 * [Lid 10mm](STL/Astro_Pi_Lid_10mm_Buttons.stl) or [Anti-warp lid 10mm](STL/anti-warping/Astro_Pi_Lid_10mm_Buttons_warp.stl) - 10mm holes, for use with the APEM buttons
 * [Lid 7mm](STL/Astro_Pi_Lid_7mm_Buttons.stl) or [Anti-warp lid 7mm](STL/anti-warping/Astro_Pi_Lid_7mm_Buttons_warp.stl) - 7mm holes, for use with the buttons from the [CPC components kit](http://cpc.farnell.com/ucreate/uc-apk-comp1/astro-pi-component-kit-budget/dp/SC14158)
-* [Lid - 3mm](STL/Astro_Pi_Lid_3mm_Pilot_Holes.stl) or [Anti-warp lid - 3mm](STL/anti-warping/Astro_Pi_Lid_3mm_Pilot_Holes_warp.stl) - 3mm pilot holes, for drilling to fit any button size
+* [Lid 3mm](STL/Astro_Pi_Lid_3mm_Pilot_Holes.stl) or [Anti-warp lid 3mm](STL/anti-warping/Astro_Pi_Lid_3mm_Pilot_Holes_warp.stl) - 3mm pilot holes, for drilling to fit any button size
 
 **Part 5 - Joystick**
 
