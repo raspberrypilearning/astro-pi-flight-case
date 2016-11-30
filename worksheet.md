@@ -20,7 +20,7 @@ Print **one** file from each section:
 
 **Part 1 - Heat sink**
 
-* [Heat Sink](STL/Astro_Pi_Heat_Sink.stl) or [Anti-warp Heat Sink](STL/anti-warping/Astro_Pi_Heat_Sink_warp.stl)
+* [Heat sink](STL/Astro_Pi_Heat_Sink.stl) or [Anti-warp heat sink](STL/anti-warping/Astro_Pi_Heat_Sink_warp.stl)
 
 
 **Part 2 - Base**
