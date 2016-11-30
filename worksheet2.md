@@ -239,13 +239,13 @@ Wiggle the joystick and press all push-buttons. If everything is working, the jo
 
 We've deliberately not shown a really polished gorgeous case, because we're hoping you'll go the extra mile and blow our socks off. Please show us your cases by tweeting pictures of them to `@astro_pi` and `@raspberry_pi`!
 
-Here are some further ideas:
+Here are some further ideas for customising your case:
 
 - Use metallic grey spray paint
 - Use sandpaper to create the matt finish that the bead-blasted aluminium flight cases have
 - Engrave decals into the case
 - Use different colours of filament for each part
 
-The STL files are released under the Creative Commons attribution [licence](http://creativecommons.org/licenses/by-sa/4.0/) so you are welcome to modify them. Please note that GitHub has a great [STL viewer](https://github.com/blog/1465-stl-file-viewing) and also has a [3D file diff](https://github.com/blog/1633-3d-file-diffs), which could be useful for tracking your changes.
+The STL files are released under the Creative Commons attribution [licence](http://creativecommons.org/licenses/by-sa/4.0/) so you are welcome to modify them. Please note that GitHub has a great [STL viewer](https://github.com/blog/1465-stl-file-viewing) as well as a [3D file diff](https://github.com/blog/1633-3d-file-diffs), which could be useful for tracking your changes.
 
-But by far the greatest benefit of owning an Astro Pi flight unit is the ability to prototype and test code that could be run on the International Space Station. Head over to the [Astro Pi website](https://astro-pi.org/) now to get involved!
+By far the greatest benefit of owning a replica Astro Pi flight unit is the ability to prototype and test code that could be run on the International Space Station. Head over to the [Astro Pi website](https://astro-pi.org/) now to get involved!
