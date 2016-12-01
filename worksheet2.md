@@ -4,7 +4,7 @@
 
 When you're happy with the 3D-printed parts you can proceed with installing the hardware.
 
-## Fold the camera ribbon
+## Install the camera
 
 Getting the camera into the case can be a little tricky but here is how we did it for the flight units. Firstly, lift the two tabs on either side of the Camera Module to disconnect the ribbon cable from the camera. Then fold the ribbon. These folds allow the camera cable to come up the side of the Raspberry Pi with enough flex to insert into the CSI camera port (see further down).
 
@@ -25,8 +25,6 @@ Getting the camera into the case can be a little tricky but here is how we did i
   ![Camera with tape](images/cam-tape.png)
 
 You don't need to get this perfect for it to work, but try to get it as close as possible.
-
-## Install the camera
 
 Reconnect the **Cam** end of the ribbon cable to the Camera Module. Make sure that the tin connectors are facing the front and the blue tab is on the back.
 
@@ -99,8 +97,6 @@ Pass a plastic insulation boot over the pin connector, narrow end first, and sli
 Alternating the angle of your pliers, squash the crimp around the wire until there is no movement whatsoever of the pin connector within the crimp. Then slide the insulation boot back up over the wire and crimp. Repeat this six times with the other coloured jumper wires to create the wires we will connect to the six buttons.
 
 ![Finished wire](images/wire-crimping2.png)
-
-## Create a ground wire loop
 
 To avoid having six more wires connected to the Raspberry Pi as ground wires, you will create a ground loop wire which connects to all of the buttons. This technique is also used in the real flight units. 
 
