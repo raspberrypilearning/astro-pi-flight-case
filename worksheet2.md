@@ -175,7 +175,7 @@ Take one of the large hex nuts and with your index finger place it against the b
 
 Once all four nuts are in place you can do a final tighten with a screwdriver.
 
-Your Astro Pi is almost complete; the last thing to do is install your 3D-printed joystick hat by pressing it onto the joystick. For this, the real flight units use a TrackPoint cap from a Lenovo ThinkPad laptop!
+Your Astro Pi is almost complete; the last thing to do is install your 3D-printed joystick cap by pressing it onto the joystick. For this, the real flight units use a TrackPoint cap from a Lenovo ThinkPad laptop!
 
 ![Install joystick](images/install-joystick.png)
 
@@ -204,7 +204,7 @@ Next, we need to configure `config.txt` to load this overlay:
 sudo nano /boot/config.txt
 ```
 
-Go to the bottom of the file and enter the line below:
+Go to the bottom of the file and enter the two lines below:
 
 ```bash
 dtoverlay=rpi-sense
