@@ -38,7 +38,9 @@ Print **one** file from each section:
 * [Lid 7mm](https://github.com/raspberrypilearning/astro-pi-flight-case/raw/master/STL/Astro_Pi_Lid_7mm_Buttons.stl) or [Anti-warp lid 7mm](https://github.com/raspberrypilearning/astro-pi-flight-case/raw/master/STL/anti-warping/Astro_Pi_Lid_7mm_Buttons_warp.stl) - 7mm holes, for use with the buttons from the *components kit bag* in the ESA branded Astro Pi kits. Sold separately by [CPC](http://cpc.farnell.com/ucreate/uc-apk-comp1/astro-pi-component-kit-budget/dp/SC14158).
 * [Lid 3mm](https://github.com/raspberrypilearning/astro-pi-flight-case/raw/master/STL/Astro_Pi_Lid_3mm_Pilot_Holes.stl) or [Anti-warp lid 3mm](https://github.com/raspberrypilearning/astro-pi-flight-case/raw/master/STL/anti-warping/Astro_Pi_Lid_3mm_Pilot_Holes_warp.stl) - 3mm pilot holes, for drilling to fit any button size
 
-**Part 5 - Joystick**
+**Part 5 - Joystick cap**
+
+Note that this joystick cap may need some slight adjustments due to the nozzle size and layer height of your printer. If you have difficulty with fitting it onto the stump of the Sense HAT joystick then try using a layer height of 0.1 mm as opposed to 0.15 mm.
 
 * [Joystick](https://github.com/raspberrypilearning/astro-pi-flight-case/raw/master/STL/Astro_Pi_Joystick.stl)
 
