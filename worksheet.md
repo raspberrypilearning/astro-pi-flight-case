@@ -6,6 +6,10 @@ The Astro Pi flight case is one of the most desirable cases in the history of th
 
 If you're participating in an Astro Pi competition, this is a great way to prototype and efficiently test your code in the same way as it would be used by the crew of the ISS.
 
+You can follow the video tutorial of this resource [here](https://www.youtube.com/embed/zmJOA6WzfZw).
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zmJOA6WzfZw" frameborder="0" allowfullscreen></iframe>
+
 ## Get access to a 3D printer
 
 First and foremost, you'll need access to a 3D printer to do this. Many schools now have their own, but if your school doesn't then you may be able to find one at your local [hackspace](http://www.hackspace.org.uk/wiki/Main_Page). You can also find local 3D printing services through the [3D Hubs](https://www.3dhubs.com/) website.
