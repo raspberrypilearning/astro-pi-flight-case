@@ -24,29 +24,29 @@ Print **one** file from each section:
 
 **Part 1 - Heat sink**
 
-* [Heat sink](https://github.com/raspberrypilearning/astro-pi-flight-case/raw/master/STL/Astro_Pi_Heat_Sink.stl) or [Anti-warp heat sink](https://github.com/raspberrypilearning/astro-pi-flight-case/raw/master/STL/anti-warping/Astro_Pi_Heat_Sink_warp.stl)
+* [Heat sink](https://github.com/raspberrypilearning/astro-pi-flight-case/raw/master/3d-printed/STL/Astro_Pi_Heat_Sink.stl) or [Anti-warp heat sink](https://github.com/raspberrypilearning/astro-pi-flight-case/raw/master/3d-printed/STL/anti-warping/Astro_Pi_Heat_Sink_warp.stl)
 
 
 **Part 2 - Base**
 
-* [Base for Model B+ or Pi 2](https://github.com/raspberrypilearning/astro-pi-flight-case/raw/master/STL/Astro_Pi_Base_Pi1_or_2.stl) or [Anti-warp base for Model B+ or Pi 2](https://github.com/raspberrypilearning/astro-pi-flight-case/raw/master/STL/anti-warping/Astro_Pi_Base_Pi1_or_2_warp.stl)
-* [Base for Pi 3](https://github.com/raspberrypilearning/astro-pi-flight-case/raw/master/STL/Astro_Pi_Base_Pi3.stl) or [Anti-warp base for Pi 3](https://github.com/raspberrypilearning/astro-pi-flight-case/raw/master/STL/anti-warping/Astro_Pi_Base_Pi3_warp.stl)
+* [Base for Model B+ or Pi 2](https://github.com/raspberrypilearning/astro-pi-flight-case/raw/master/3d-printed/STL/Astro_Pi_Base_Pi1_or_2.stl) or [Anti-warp base for Model B+ or Pi 2](https://github.com/raspberrypilearning/astro-pi-flight-case/raw/master/3d-printed/STL/anti-warping/Astro_Pi_Base_Pi1_or_2_warp.stl)
+* [Base for Pi 3](https://github.com/raspberrypilearning/astro-pi-flight-case/raw/master/3d-printed/STL/Astro_Pi_Base_Pi3.stl) or [Anti-warp base for Pi 3](https://github.com/raspberrypilearning/astro-pi-flight-case/raw/master/3d-printed/STL/anti-warping/Astro_Pi_Base_Pi3_warp.stl)
 
 **Part 3 - Middle**
 
-* [Middle](https://github.com/raspberrypilearning/astro-pi-flight-case/raw/master/STL/Astro_Pi_Middle.stl) or [Anti-warp middle](https://github.com/raspberrypilearning/astro-pi-flight-case/raw/master/STL/anti-warping/Astro_Pi_Middle_warp.stl)
+* [Middle](https://github.com/raspberrypilearning/astro-pi-flight-case/raw/master/3d-printed/STL/Astro_Pi_Middle.stl) or [Anti-warp middle](https://github.com/raspberrypilearning/astro-pi-flight-case/raw/master/3d-printed/STL/anti-warping/Astro_Pi_Middle_warp.stl)
 
 **Part 4 - Lid**
 
-* [Lid 10mm](https://github.com/raspberrypilearning/astro-pi-flight-case/raw/master/STL/Astro_Pi_Lid_10mm_Buttons.stl) or [Anti-warp lid 10mm](https://github.com/raspberrypilearning/astro-pi-flight-case/raw/master/STL/anti-warping/Astro_Pi_Lid_10mm_Buttons_warp.stl) - 10mm holes, for use with the APEM buttons
-* [Lid 7mm](https://github.com/raspberrypilearning/astro-pi-flight-case/raw/master/STL/Astro_Pi_Lid_7mm_Buttons.stl) or [Anti-warp lid 7mm](https://github.com/raspberrypilearning/astro-pi-flight-case/raw/master/STL/anti-warping/Astro_Pi_Lid_7mm_Buttons_warp.stl) - 7mm holes, for use with the buttons from the *components kit bag* in the ESA branded Astro Pi kits. Sold separately by [CPC](http://cpc.farnell.com/ucreate/uc-apk-comp1/astro-pi-component-kit-budget/dp/SC14158).
-* [Lid 3mm](https://github.com/raspberrypilearning/astro-pi-flight-case/raw/master/STL/Astro_Pi_Lid_3mm_Pilot_Holes.stl) or [Anti-warp lid 3mm](https://github.com/raspberrypilearning/astro-pi-flight-case/raw/master/STL/anti-warping/Astro_Pi_Lid_3mm_Pilot_Holes_warp.stl) - 3mm pilot holes, for drilling to fit any button size
+* [Lid 10mm](https://github.com/raspberrypilearning/astro-pi-flight-case/raw/master/3d-printed/STL/Astro_Pi_Lid_10mm_Buttons.stl) or [Anti-warp lid 10mm](https://github.com/raspberrypilearning/astro-pi-flight-case/raw/master/3d-printed/STL/anti-warping/Astro_Pi_Lid_10mm_Buttons_warp.stl) - 10mm holes, for use with the APEM buttons
+* [Lid 7mm](https://github.com/raspberrypilearning/astro-pi-flight-case/raw/master/3d-printed/STL/Astro_Pi_Lid_7mm_Buttons.stl) or [Anti-warp lid 7mm](https://github.com/raspberrypilearning/astro-pi-flight-case/raw/master/3d-printed/STL/anti-warping/Astro_Pi_Lid_7mm_Buttons_warp.stl) - 7mm holes, for use with the buttons from the *components kit bag* in the ESA branded Astro Pi kits. Sold separately by [CPC](http://cpc.farnell.com/ucreate/uc-apk-comp1/astro-pi-component-kit-budget/dp/SC14158).
+* [Lid 3mm](https://github.com/raspberrypilearning/astro-pi-flight-case/raw/master/3d-printed/STL/Astro_Pi_Lid_3mm_Pilot_Holes.stl) or [Anti-warp lid 3mm](https://github.com/raspberrypilearning/astro-pi-flight-case/raw/master/3d-printed/STL/anti-warping/Astro_Pi_Lid_3mm_Pilot_Holes_warp.stl) - 3mm pilot holes, for drilling to fit any button size
 
 **Part 5 - Joystick cap**
 
 Note that this joystick cap may need some slight adjustments due to the nozzle size and layer height of your printer. If you have difficulty with fitting it onto the stump of the Sense HAT joystick then try using a layer height of 0.1 mm as opposed to 0.15 mm.
 
-* [Joystick](https://github.com/raspberrypilearning/astro-pi-flight-case/raw/master/STL/Astro_Pi_Joystick.stl)
+* [Joystick](https://github.com/raspberrypilearning/astro-pi-flight-case/raw/master/3d-printed/STL/Astro_Pi_Joystick.stl)
 
 The 3D files don't exactly match those used to make the aluminium flight cases on the International Space Station. They have been modified to make them compatible with 3D printers, so that most people who attempt this will achieve success without difficulty.
 
