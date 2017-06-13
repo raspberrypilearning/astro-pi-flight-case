@@ -171,7 +171,7 @@ If you're planning to build a full Astro Pi flight unit, you can purchase a [kit
 Part|Quantity|Info|Purpose
 ---|---|---|---
 female-to-female jumper wires|10|Two each of red, yellow, blue, green, black|Connecting the buttons
-Extended 23-way pin header|1|&nbsp;|Goes onto the GPIO pins to hold the Sense HAT at the correct height
+Extended 26-way pin header|1|&nbsp;|Goes onto the GPIO pins to hold the Sense HAT at the correct height
 Insulation boot|15|&nbsp;|Insulates button wiring
 Friction fit crimp|15||Crimping wires together
 M2 cross-head screw|4|Black 4 mm|Fixes Camera Module to base
