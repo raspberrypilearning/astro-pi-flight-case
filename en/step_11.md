@@ -1,4 +1,6 @@
-## Continue to install the hardware
+## 3D printed Astro Pi flight case
 
-- [Install the hardware](worksheet2.md)
+- [Back to 3D printing and setup](worksheet.md)
+
+When you're happy with the 3D-printed parts you can proceed with installing the hardware.
 

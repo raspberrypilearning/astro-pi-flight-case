@@ -1,14 +1,16 @@
-## Install the Raspberry Pi
+## Install stand offs for the Sense HAT
 
-Firstly, ensure there's no residual scaffolding material around the SD card slot or LED holes that might prevent the Raspberry Pi from lining up with the mounting pillars. Once you're happy, line the Raspberry Pi up and do a fit check. Verify that it doesn't touch the Camera Module below it. Don't insert the camera ribbon cable just yet, as this will make the next job awkward.
+This is where we're going to deviate from what's inside the Astro Pi flight unit. The flight units have another circuit board in between the Raspberry Pi and Sense HAT which holds a real-time clock, an oscillator crystal, and a backup battery. This RTC board also has some pins that the six push-buttons connect to. Unfortunately, this is not available to the public.
 
-![](images/install-pi.png)
+Our goal was to keep the 3D-printed flight case as faithful to the original as possible, so the decision was taken to not alter it to accommodate the absence of this board. It may be possible for us to release the Gerber files for it in the future so that people can make their own. We're going to use hex nuts of the same depth as the RTC board to compensate for its absence.
 
-Next, screw the M2.5 11mm stand offs into each corner of the Pi. With some light finger pressure they will cut their own thread in the support pillar pilot holes. After a few turns you'll need to use a small pair of pliers to continue turning them. It's possible to get these to go in at a slight angle, which can lead to alignment issues with the Sense HAT later on, so do your best to make sure they go into the support pillars as straight as possible. Be careful while you do this and, again, stop turning as soon as the stand off touches the Raspberry Pi to avoid splitting the pillars horizontally along the grain of the print.
+Add the extended 23-way pin header to the Raspberry Pi GPIO pins, at the furthest end from the USB ports. Then, take an 8mm M2.5 stand off and put a hex nut onto its thread before screwing it into the hole of the 11mm stand off, as shown below. Do the same for the remaining three stand offs.
 
-If you are having trouble screwing in the stand offs, screw one of the silver M2.5 cross head screws into the stand off, then use the screw head to screw the stand off into the case. Once the stand off is in place, don't forget to remove the screw.
+![Add standoffs](images/add-header-standoffs.png)
 
-![Use a screw to help you](images/screwing-in-tip.png)
+WARNING|&nbsp;
+---|---
+![WiFi antenna](images/pi3_wifi.jpg)|A note for Pi 3 users. Using a **metal** stand off next to the wireless antenna will degrade its performance and range. The advice is to either omit this stand off from your build or to use a nylon stand off and nylon screw instead.
 
-You can now insert the camera ribbon cable into the CSI port of the Raspberry Pi. Try to make sure the tin connectors are all level to ensure a good connection.
+Do not install the Sense HAT yet as it will get in the way when you connect the GPIO pins to the buttons.
 

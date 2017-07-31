@@ -193,7 +193,7 @@ Open a terminal window and enter these commands:
 
 ```bash
 cd /boot/overlays
-sudo wget https://github.com/raspberrypilearning/astro-pi-flight-case/raw/master/dtb/astropi-keys.dtbo --no-check-certificate
+sudo wget https://github.com/raspberrypilearning/astro-pi-flight-case/raw/master/en/resources/dtb/astropi-keys.dtbo --no-check-certificate
 ```
 
 Type `ls` and check that the file `astropi-keys.dtbo` is now showing in the list of files.
@@ -223,7 +223,7 @@ Now let's download and run a Python test program to check everything is working.
 
 ```bash
 cd ~
-wget https://github.com/raspberrypilearning/astro-pi-flight-case/raw/master/test_code/pygame_test.py --no-check-certificate
+wget https://github.com/raspberrypilearning/astro-pi-flight-case/raw/master/en/resources/test_code/pygame_test.py --no-check-certificate
 chmod +x pygame_test.py
 ./pygame_test.py
 ```

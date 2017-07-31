@@ -1,52 +1,15 @@
-## Test the buttons
+## What next?
 
-Once you have assembled the Astro Pi, start it up with a monitor, keyboard, and mouse connected.
+We've deliberately not shown a really polished gorgeous case, because we're hoping you'll go the extra mile and blow our socks off. Please show us your cases by tweeting pictures of them to [@astro_pi](https://twitter.com/astro_pi) and [@raspberry_pi](https://twitter.com/Raspberry_Pi)!
 
-If you have the ESA-branded Astro Pi kit, when you turn the Astro Pi on, the rainbow pattern on the LED matrix should disappear after a few seconds and the push-buttons should now type letters. You can test this in the terminal by running the test program at the bottom of this section.
+Here are some further ideas for customising your case:
 
-If you do not have the ESA-branded Astro Pi kit, when you turn the Astro Pi on, the rainbow pattern on the LED matrix will remain and the buttons will not work yet.
+- Use metallic grey spray paint
+- Use sandpaper to create the matt finish that the bead-blasted aluminium flight cases have
+- Engrave decals into the case
+- Use different colours of filament for each part
 
-You will need to download some files and change a few configuration settings, so make sure your Astro Pi is online. Firstly, download the Device Tree overlay that maps the push-buttons to the corresponding keyboard keys. 
+The STL files are released under the Creative Commons attribution [licence](http://creativecommons.org/licenses/by-sa/4.0/) so you are welcome to modify them. Please note that GitHub has a great [STL viewer](https://github.com/blog/1465-stl-file-viewing) as well as a [3D file diff](https://github.com/blog/1633-3d-file-diffs), which could be useful for tracking your changes.
 
-Open a terminal window and enter these commands:
-
-```bash
-cd /boot/overlays
-sudo wget https://github.com/raspberrypilearning/astro-pi-flight-case/raw/master/dtb/astropi-keys.dtbo --no-check-certificate
-```
-
-Type `ls` and check that the file `astropi-keys.dtbo` is now showing in the list of files.
-
-Next, we need to configure `config.txt` to load this overlay:
-
-```bash
-sudo nano /boot/config.txt
-```
-
-Go to the bottom of the file and enter the two lines below:
-
-```bash
-dtoverlay=rpi-sense
-dtoverlay=astropi-keys
-```
-
-Press `Ctrl` + `O` then `Enter` to save, followed by `Ctrl` + `X` to quit.
-
-Now reboot the Astro Pi.
-
-```bash
-sudo reboot
-```
-
-Now let's download and run a Python test program to check everything is working. The test code uses [Pygame](http://pygame.org/wiki/tutorials), so please do this on a directly connected monitor. It will not work via remote access. Open a terminal window and enter these commands:
-
-```bash
-cd ~
-wget https://github.com/raspberrypilearning/astro-pi-flight-case/raw/master/test_code/pygame_test.py --no-check-certificate
-chmod +x pygame_test.py
-./pygame_test.py
-```
-
-Wiggle the joystick and press all push-buttons. If everything is working, the joystick should give a direction indication and the buttons will show the corresponding letter on the LED matrix. Press `Escape` to exit.
-
+By far the greatest benefit of owning a replica Astro Pi flight unit is the ability to prototype and test code that could be run on the International Space Station. Head over to the [Astro Pi website](https://astro-pi.org/) now to get involved!
 

@@ -1,18 +1,52 @@
-## Assemble the case
+## Test the buttons
 
-Once you're happy that the internals of the case are complete, you can proceed to the final assembly stage. 
+Once you have assembled the Astro Pi, start it up with a monitor, keyboard, and mouse connected.
 
-Take the lid and gently tuck the wires into the space on the right of the Pi as neatly as you can. Place the lid on top of the case and align the heat sink on the bottom.
+If you have the ESA-branded Astro Pi kit, when you turn the Astro Pi on, the rainbow pattern on the LED matrix should disappear after a few seconds and the push-buttons should now type letters. You can test this in the terminal by running the test program at the bottom of this section.
 
-Take the black M4 threaded bolts and insert one through each of the holes in the corners of the case. Inserting all four bolts at this stage will help to line everything up and make it easier to secure the case with the nuts.
+If you do not have the ESA-branded Astro Pi kit, when you turn the Astro Pi on, the rainbow pattern on the LED matrix will remain and the buttons will not work yet.
 
-Take one of the large hex nuts and with your index finger place it against the bottom of the bolt. Push the bolt back up so that the nut is then flush with the bottom of the case, and turn the head of the nut with your finger and thumb so that it catches the bolt thread. Tighten the nut with your fingers only. 
+You will need to download some files and change a few configuration settings, so make sure your Astro Pi is online. Firstly, download the Device Tree overlay that maps the push-buttons to the corresponding keyboard keys. 
 
-![Hold the bolt](images/hold-bolt.png)
+Open a terminal window and enter these commands:
 
-Once all four nuts are in place you can do a final tighten with a screwdriver.
+```bash
+cd /boot/overlays
+sudo wget https://github.com/raspberrypilearning/astro-pi-flight-case/raw/master/en/resources/dtb/astropi-keys.dtbo --no-check-certificate
+```
 
-Your Astro Pi is almost complete; the last thing to do is install your 3D-printed joystick cap by pressing it onto the joystick. For this, the real flight units use a TrackPoint cap from a Lenovo ThinkPad laptop!
+Type `ls` and check that the file `astropi-keys.dtbo` is now showing in the list of files.
 
-![Install joystick](images/install-joystick.png)
+Next, we need to configure `config.txt` to load this overlay:
+
+```bash
+sudo nano /boot/config.txt
+```
+
+Go to the bottom of the file and enter the two lines below:
+
+```bash
+dtoverlay=rpi-sense
+dtoverlay=astropi-keys
+```
+
+Press `Ctrl` + `O` then `Enter` to save, followed by `Ctrl` + `X` to quit.
+
+Now reboot the Astro Pi.
+
+```bash
+sudo reboot
+```
+
+Now let's download and run a Python test program to check everything is working. The test code uses [Pygame](http://pygame.org/wiki/tutorials), so please do this on a directly connected monitor. It will not work via remote access. Open a terminal window and enter these commands:
+
+```bash
+cd ~
+wget https://github.com/raspberrypilearning/astro-pi-flight-case/raw/master/en/resources/test_code/pygame_test.py --no-check-certificate
+chmod +x pygame_test.py
+./pygame_test.py
+```
+
+Wiggle the joystick and press all push-buttons. If everything is working, the joystick should give a direction indication and the buttons will show the corresponding letter on the LED matrix. Press `Escape` to exit.
+
 

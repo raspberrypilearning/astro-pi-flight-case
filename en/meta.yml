@@ -24,7 +24,6 @@ steps:
 - title: Remove the scaffolding
 - title: Do a fit check
 - title: Checklist
-- title: Continue to install the hardware
 - title: 3D printed Astro Pi flight case
 - title: Install the camera
 - title: Install the Raspberry Pi
