@@ -5,7 +5,7 @@ The Astro Pi flight case is one of the most desirable cases in the history of th
 
 If you're participating in an Astro Pi competition, this is a great way to prototype and efficiently test your code in the same way as it would be used by the crew of the ISS.
 
-You can follow the video tutorial of this resource [here](https://www.youtube.com/embed/zmJOA6WzfZw).
+You can follow the video tutorial of this resource [here](https://www.youtube.com/embed/zmJOA6WzfZw){:target="_blank"}.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/zmJOA6WzfZw" frameborder="0" allowfullscreen></iframe>
 

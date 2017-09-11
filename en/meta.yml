@@ -15,15 +15,11 @@ site_areas: ''
 steps:
 - title: Introduction
 - title: What you will need
-- title: 3D-printed Astro Pi flight case
-- title: Get access to a 3D printer
 - title: Get the 3D files
-- title: Safety first
 - title: Print each part
 - title: Remove the scaffolding
 - title: Do a fit check
-- title: Checklist
-- title: 3D printed Astro Pi flight case
+- title: Parts checklist
 - title: Install the camera
 - title: Install the Raspberry Pi
 - title: Install stand offs for the Sense HAT
@@ -35,4 +31,3 @@ steps:
 - title: Assemble the case
 - title: Test the buttons
 - title: What next?
-

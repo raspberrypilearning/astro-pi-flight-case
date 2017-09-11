@@ -1,31 +1,47 @@
-## Print each part
+## Parts checklist
 
-The 3D printer we used for the black parts shown was an [Up Plus 2](https://www.3dhubs.com/3d-printers/up-plus-2), called the Afinia H480 in the US, using ABS filament. Because there are so many different types of 3D printer, we cannot possibly provide instructions for them all. We can only provide rough guidance here and you'll need to figure out the rest on your own.
+![All required components](images/all-components.png)
 
-Here are some top tips though:
+Alongside your 3D-printed parts, check that you have all of the other parts required before you start:
 
-- Spend some time making sure your printer is properly calibrated and tested
-- [PLA](https://en.wikipedia.org/wiki/Polylactic_acid) is more reliable and nicer to print with than [ABS](https://en.wikipedia.org/wiki/Acrylonitrile_butadiene_styrene)
-- A [Zebra](http://www.printinz.com/zebra-plates/) or [Buildtak](http://www.buildtak.eu/) plate provides a great surface to print on without any extra adhesive being required
-- If your printer has a Z probe sensor, this will help compensate for the bed not being perfectly level; ensure it's working correctly if you have one
+Part|Quantity|Info|Purpose
+---|---|---|---
+Raspberry Pi|1|B+, Pi 2, or Pi 3|Main computer
+Camera Module|1|Normal or Pi NoIR|Main camera
+Sense HAT|1|&nbsp;|Main sensors
 
-To get a nice finish we recommend you print on a high detail setting; this is usually a number specified in [microns](https://en.wikipedia.org/wiki/Micrometre) in the 3D printer software. The lower this number is, the more precise the model will be. Please also be aware that precise prints take longer and, for these models, each piece can take up to **four** hours to complete. Make sure you have enough filament.
+If you're planning to build a full Astro Pi flight unit, you can purchase a [kit containing the required components](http://cpc.farnell.com/ucreate/uc-apk-comp1/astro-pi-component-kit-budget/dp/SC14158) from CPC.
 
-The STL files should have the models like this by default, but please make sure you print in the orientations shown below in order to minimise scaffolding and rafting.
+Part|Quantity|Info|Purpose
+---|---|---|---
+female-to-female jumper wires|10|Two each of red, yellow, blue, green, black|Connecting the buttons
+Extended 26-way pin header|1|&nbsp;|Goes onto the GPIO pins to hold the Sense HAT at the correct height
+Insulation boot|15|&nbsp;|Insulates button wiring
+Friction fit crimp|15||Crimping wires together
+M2 cross-head screw|4|Black 4 mm|Fixes Camera Module to base
+M2.5 cross-head screw|4|Silver 6 mm|Fixes the top of the Sense HAT to the stand offs below
+M2.5 washer|4|&nbsp;|Holds the Sense HAT at the correct height
+M2.5 nut|4|&nbsp;|Holds the Sense HAT at the correct height
+M4 hex nut|4|&nbsp;|Used in the corner bolt enclosures to hold the case together
+M4 bolt|4|50 mm|Used in the corner bolt enclosures to hold the case together
+M2.5 male-to-female stand off|4|11 mm|Holds the Sense HAT at the correct height
+M2.5 male-to-female stand off|4|8 mm|Holds the Sense HAT at the correct height
+Tactile push-buttons|6|&nbsp;|Function buttons
+Length of black wire|1|&nbsp;|To cut up for push-button wiring
 
-### Heat sink
+![Astro Pi actual button](images/apem.jpg)
 
-![Anti warp heat sink raw print](images/heatsink-antiwarp.png)
+The kit already contains buttons, but if you want to buy the exact buttons used in the Astro Pi flight unit, the details are below. At about £9 each they are expensive, because they're designed to survive an enormous number of clicks before wearing out, which is necessary for a seven-year space mission.
 
-### Base
+- Manufacturer: APEM
+- Manufacturer Part No: 104350003
 
-![Anti warp base raw print](images/base-antiwarp.png)
+You're also going to need the following tools:
 
-### Middle
-
-![Anti warp middle raw print](images/middle-antiwarp.png)
-
-### Lid
-
-![Anti warp lid raw print](images/lid-antiwarp.png)
-
+- Small cross-head screwdriver
+- Small pair of pliers
+- Craft knife or scalpel
+- Sandpaper
+- Tape
+- Wire strippers
+- Wire cutters

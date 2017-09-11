@@ -1,16 +1,29 @@
-## Install stand offs for the Sense HAT
+## Connecting the buttons to the Raspberry Pi
 
-This is where we're going to deviate from what's inside the Astro Pi flight unit. The flight units have another circuit board in between the Raspberry Pi and Sense HAT which holds a real-time clock, an oscillator crystal, and a backup battery. This RTC board also has some pins that the six push-buttons connect to. Unfortunately, this is not available to the public.
+Fit the middle section of the Astro Pi case onto the base. You should do this now as the GPIO wires will prevent it from being fitted later.
 
-Our goal was to keep the 3D-printed flight case as faithful to the original as possible, so the decision was taken to not alter it to accommodate the absence of this board. It may be possible for us to release the Gerber files for it in the future so that people can make their own. We're going to use hex nuts of the same depth as the RTC board to compensate for its absence.
+Now you are going to wire the buttons to the free GPIO pins at the bottom of the header. Turn the Astro Pi case so that the Ethernet and USB ports are at the bottom, and the GPIO pins are on the right of the Raspberry Pi.
 
-Add the extended 23-way pin header to the Raspberry Pi GPIO pins, at the furthest end from the USB ports. Then, take an 8mm M2.5 stand off and put a hex nut onto its thread before screwing it into the hole of the 11mm stand off, as shown below. Do the same for the remaining three stand offs.
+![GPIO diagram](images/buttons_GPIO.png)
 
-![Add standoffs](images/add-header-standoffs.png)
+The pins marked in red are where you will wire up the buttons, with the bottom of the diagram being the pins closest to the USB ports. 
 
-WARNING|&nbsp;
----|---
-![WiFi antenna](images/pi3_wifi.jpg)|A note for Pi 3 users. Using a **metal** stand off next to the wireless antenna will degrade its performance and range. The advice is to either omit this stand off from your build or to use a nylon stand off and nylon screw instead.
+Look at the **underside** of the lid, with the buttons on the left and the display hole on the right. Connect the coloured wire from each button to the corresponding pin below:
 
-Do not install the Sense HAT yet as it will get in the way when you connect the GPIO pins to the buttons.
+- Top four buttons
+    - Top: GPIO 26
+    - Bottom: GPIO 13
+    - Left: GPIO 19
+    - Right: GPIO 20
+- Bottom pair of buttons
+    - Left: GPIO 21
+    - Right: GPIO 16
+
+Finally, connect the ground wire to either pin 34 or 39 (labelled Ground on the GPIO diagram). 
+
+The lid will now be a bit awkward until we finish, but try to position it gently so it is not in the way.
+
+The picture below is of one of the flight units that went into space. On the right, you can see the base of the RTC board with the connector pins for the buttons. If you look at the button contacts on the left, you'll see we used only one black ground wire that went from button to button.
+
+![Flight unit wiring](images/flight_unit_wiring.jpg)
 

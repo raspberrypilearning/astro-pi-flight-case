@@ -1,29 +1,15 @@
-## Connecting the buttons to the Raspberry Pi
+## What next?
 
-Fit the middle section of the Astro Pi case onto the base. You should do this now as the GPIO wires will prevent it from being fitted later.
+We've deliberately not shown a really polished gorgeous case, because we're hoping you'll go the extra mile and blow our socks off. Please show us your cases by tweeting pictures of them to [@astro_pi](https://twitter.com/astro_pi) and [@raspberry_pi](https://twitter.com/Raspberry_Pi)!
 
-Now you are going to wire the buttons to the free GPIO pins at the bottom of the header. Turn the Astro Pi case so that the Ethernet and USB ports are at the bottom, and the GPIO pins are on the right of the Raspberry Pi.
+Here are some further ideas for customising your case:
 
-![GPIO diagram](images/buttons_GPIO.png)
+- Use metallic grey spray paint
+- Use sandpaper to create the matt finish that the bead-blasted aluminium flight cases have
+- Engrave decals into the case
+- Use different colours of filament for each part
 
-The pins marked in red are where you will wire up the buttons, with the bottom of the diagram being the pins closest to the USB ports. 
+The STL files are released under the Creative Commons attribution [licence](http://creativecommons.org/licenses/by-sa/4.0/) so you are welcome to modify them. Please note that GitHub has a great [STL viewer](https://github.com/blog/1465-stl-file-viewing) as well as a [3D file diff](https://github.com/blog/1633-3d-file-diffs), which could be useful for tracking your changes.
 
-Look at the **underside** of the lid, with the buttons on the left and the display hole on the right. Connect the coloured wire from each button to the corresponding pin below:
-
-- Top four buttons
-    - Top: GPIO 26
-    - Bottom: GPIO 13
-    - Left: GPIO 19
-    - Right: GPIO 20
-- Bottom pair of buttons
-    - Left: GPIO 21
-    - Right: GPIO 16
-
-Finally, connect the ground wire to either pin 34 or 39 (labelled Ground on the GPIO diagram). 
-
-The lid will now be a bit awkward until we finish, but try to position it gently so it is not in the way.
-
-The picture below is of one of the flight units that went into space. On the right, you can see the base of the RTC board with the connector pins for the buttons. If you look at the button contacts on the left, you'll see we used only one black ground wire that went from button to button.
-
-![Flight unit wiring](images/flight_unit_wiring.jpg)
+By far the greatest benefit of owning a replica Astro Pi flight unit is the ability to prototype and test code that could be run on the International Space Station. Head over to the [Astro Pi website](https://astro-pi.org/) now to get involved!
 
