@@ -22,13 +22,3 @@ The kit already contains buttons, but if you want to buy the exact buttons used 
 
 - Manufacturer: APEM
 - Manufacturer Part No: 104350003
-
-You're also going to need the following tools:
-
-- Small cross-head screwdriver
-- Small pair of pliers
-- Craft knife or scalpel
-- Sandpaper
-- Tape
-- Wire strippers
-- Wire cutters
