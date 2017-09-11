@@ -1,4 +1,4 @@
-## Connecting the buttons to the Raspberry Pi
+## Connect the buttons to the Raspberry Pi
 
 + Fit the middle section of the Astro Pi case onto the base. You should do this now as the GPIO wires will prevent it from being fitted later.
 

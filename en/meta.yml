@@ -25,8 +25,8 @@ steps:
 - title: Install stand offs for the Sense HAT
 - title: Install the push-buttons
 - title: Create the button wires
-- title: Connecting wires to the button terminals
-- title: Connecting the buttons to the Raspberry Pi
+- title: Connect wires to the button terminals
+- title: Connect the buttons to the Raspberry Pi
 - title: Install the Sense HAT
 - title: Assemble the case
 - title: Test the buttons

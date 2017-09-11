@@ -38,7 +38,7 @@ dtoverlay=astropi-keys
 sudo reboot
 ```
 
-Now let's download and run a Python test program to check everything is working. The test code uses [Pygame](http://pygame.org/wiki/tutorials), so please do this on a directly connected monitor. It will not work via remote access.
+Now let's download and run a Python test program to check everything is working. The test code uses [Pygame](http://pygame.org/wiki/tutorials){:target="_blank"}, so please do this on a directly connected monitor. It will not work via remote access.
 
 + Open a terminal window and enter these commands:
 

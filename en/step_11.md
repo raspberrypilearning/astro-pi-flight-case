@@ -1,6 +1,6 @@
 ## Install the push-buttons
 
-This section assumes you are using the buttons from the Astro Pi [components kit](http://cpc.farnell.com/ucreate/uc-apk-comp1/astro-pi-component-kit-budget/dp/SC14158) from CPC. If you are using the APEM buttons or another type of button, these may differ in their installation.
+This section assumes you are using the buttons from the Astro Pi [components kit](http://cpc.farnell.com/ucreate/uc-apk-comp1/astro-pi-component-kit-budget/dp/SC14158){:target="_blank"} from CPC. If you are using the APEM buttons or another type of button, these may differ in their installation.
 
 + Take a button, then unscrew and remove the nut. Sometimes the nut will get stuck on the button cap, but it should come off if you wiggle it.
 

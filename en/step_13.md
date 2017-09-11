@@ -1,4 +1,4 @@
-## Connecting wires to the button terminals
+## Connect wires to the button terminals
 
 First, you will connect your ground loop to the buttons.
 
