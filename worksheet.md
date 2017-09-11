@@ -30,11 +30,11 @@ Print **one** file from each section:
 **Part 2 - Base**
 
 * [Base for Model B+ or Pi 2](https://github.com/raspberrypilearning/astro-pi-flight-case/raw/master/data/3d-printed/STL/Astro_Pi_Base_Pi1_or_2.stl) or [Anti-warp base for Model B+ or Pi 2](https://github.com/raspberrypilearning/astro-pi-flight-case/raw/master/data/3d-printed/STL/anti-warping/Astro_Pi_Base_Pi1_or_2_warp.stl)
-* [Base for Pi 3](https://github.com/raspberrypilearning/astro-pi-flight-case/raw/master/data/3d-printed/STL/Astro_Pi_Base_Pi3.stl) or [Anti-warp base for Pi 3](https://github.com/raspberrypilearning/astro-pi-flight-case/raw/master/en/resources3d-printed/STL/anti-warping/Astro_Pi_Base_Pi3_warp.stl)
+* [Base for Pi 3](https://github.com/raspberrypilearning/astro-pi-flight-case/raw/master/data/3d-printed/STL/Astro_Pi_Base_Pi3.stl) or [Anti-warp base for Pi 3](https://github.com/raspberrypilearning/astro-pi-flight-case/raw/master/data/3d-printed/STL/anti-warping/Astro_Pi_Base_Pi3_warp.stl)
 
 **Part 3 - Middle**
 
-* [Middle](https://github.com/raspberrypilearning/astro-pi-flight-case/raw/master/3d-printed/STL/Astro_Pi_Middle.stl) or [Anti-warp middle](https://github.com/raspberrypilearning/astro-pi-flight-case/raw/master/3d-printed/STL/anti-warping/Astro_Pi_Middle_warp.stl)
+* [Middle](https://github.com/raspberrypilearning/astro-pi-flight-case/raw/master/data/3d-printed/STL/Astro_Pi_Middle.stl) or [Anti-warp middle](https://github.com/raspberrypilearning/astro-pi-flight-case/raw/master/data/3d-printed/STL/anti-warping/Astro_Pi_Middle_warp.stl)
 
 **Part 4 - Lid**
 
