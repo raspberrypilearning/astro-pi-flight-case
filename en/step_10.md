@@ -6,7 +6,7 @@ Our goal was to keep the 3D-printed flight case as faithful to the original as p
 
 + Add the extended 23-way pin header to the Raspberry Pi GPIO pins, at the end away from the USB ports.
 
-+ Then, take an 8 mm M2.5 stand-off and put a hex nut onto its thread before screwing it into the hole of the 11 mm stand-off, as shown below. Do the same for the remaining three stand-offs.
++ Then, take an 8mm M2.5 stand-off and put a hex nut onto its thread before screwing it into the hole of the 11mm stand-off, as shown below. Do the same for the remaining three stand-offs.
 
 ![Add standoffs](images/add-header-standoffs.png)
 
