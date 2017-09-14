@@ -1,6 +1,6 @@
 ## Install stand-offs for the Sense HAT
 
-This is where we're going to deviate from what's inside the Astro Pi flight unit. The flight units have another circuit board in between the Raspberry Pi and Sense HAT which holds a real-time clock, an oscillator crystal, and a backup battery. This RTC board also has some pins with six connected push-buttons. Unfortunately, this board is not available to the public.
+This is where we're going to deviate from what's inside the Astro Pi flight unit. The flight units have another circuit board in between the Raspberry Pi and Sense HAT which holds a real-time clock, an oscillator crystal, and a backup battery. This RTC board also has some pins with six connected push-buttons. Unfortunately, the board is not available to the public.
 
 Our goal was to keep the 3D-printed flight case as faithful to the original as possible, so the decision was taken to not alter it to accommodate the absence of this board. It may be possible for us to release the Gerber files for it in the future, so that people can make their own. We're going to use hex nuts of the same depth as the RTC board to compensate for its absence.
 
