@@ -1,52 +1,37 @@
-## Remove the scaffolding
+## Install the camera
 
-In order to keep the model structurally sound while printing, your 3D printer will create what's called scaffolding and rafting to prevent the hot thermoplastics from bending or sagging. Leave the print to cool right down to room temperature before you touch it.
+When you're happy with the 3D-printed parts, you can proceed to the hardware installation.
 
-### Heat sink
+Getting the camera into the case can be a little tricky, but here is how we did it for the flight units:
 
-You should be able to remove the scaffolding on the heat sink using just your hands; this part may bend slightly, so don't be too rough while you are removing the unwanted material.
++ Firstly, lift the two tabs on either side of the Camera Module to disconnect the ribbon cable from the camera.
 
-![Peel off the heat sink scaffolding](images/peel-off-heatsink.png)
+Then fold the ribbon. These folds allow the camera cable to come up the side of the Raspberry Pi with enough flex to insert into the CSI camera port (see further down).
 
-You may choose to not print this part because it's not essential to the rest of the case, and because it's made of plastic it **will not** work as a heat sink. We've included it, though, so that you can achieve the iconic look and feel of the Astro Pi flight case.
++ Lay the ribbon out with the writing face up and the visible connectors on the left. At 1cm along the ribbon, fold the ribbon downwards.
 
-### Base
+  ![Fold down at 1cm](images/cam-fold1.png)
 
-The base scaffolding should come away easily as with the heat sink.
++ Now measure 4cm from the top of the ribbon and fold the ribbon to the right.
 
-![Peel off the base scaffolding](images/peel-off-base.png)
+  ![Fold 4cm right](images/cam-fold2.png)
 
-If the scaffolding breaks off unintentionally, carefully prise up the remaining scaffolding using a scalpel and then continue peeling it off with your fingers.
++ Finally, measuring 4cm from the bottom-left corner, fold the ribbon upwards.
 
-![If the scaffolding breaks](images/oops-scalpel.png)
+  ![Fold 1cm](images/cam-fold3.png)
 
-Don't worry if you scuff the surface with the scalpel as the rough side of the print will not be visible when the case is assembled.
++ Tape the ribbon on the bottom to prevent it from unfurling. We have used Kapton tape, but any kind of tape will work fine.
 
-Don't forget to clear the material around the SD card slot; this can easily be done with pliers.
+  ![Camera with tape](images/cam-tape.png)
 
-![Clear the SD card slot](images/sd-card-slot.png)
+You don't need to get this perfect for it to work, but try to do it as precisely as you can.
 
-### Middle
++ Reconnect the **Cam** end of the ribbon cable to the Camera Module. Make sure that the tin connectors are facing the front and the blue tab is on the back.
 
-Again, the scaffolding should come away easily by peeling it with your fingers.
++ Before proceeding, line the Camera Module up with the support pillar pilot holes and have a look through the aperture in the base to check the alignment of the lens. The lens block of the Camera Module is actually glued in position at the factory, and therefore its alignment can vary slightly from camera to camera. If you find you've got an alignment issue, you should be able to manipulate the lens block between finger and thumb before you install it into the case permanently.
 
-![Peel off the middle scaffolding](images/peel-off-middle.png)
++ When you're happy, use the small black M2 cross-head screws to install the Camera Module. The screws will cut their own thread in the support pillar pilot holes, but after a few turns you'll probably need a small screwdriver to continue.
 
-### Lid
+![Screw in the camera](images/screw-in-camera.png)
 
-Peel off the bottom layer of scaffolding as before.
-
-![When you first peel off the lid](images/lid-first-peel.png)
-
-However, there are a few sunken holes on the underside that must also be cleared of material. These are present to prevent the lid from striking the Raspberry Pi hardware when it is installed in the case. You'll need a scalpel or craft knife to dig into it.
-
-![Use a scalpel to lift the scaffold](images/inner-scalpel.png)
-
-Once you've managed to lift some of it, use a small pair of pliers to remove the rest of the material. The areas marked with a red star below need the same treatment.
-
-![Stars show which bits need to be removed](images/lid-with-stars.png)
-
-When you're done it should look like this:
-
-![Cleaned up lid](images/lid-done.png)
-
+Stop turning as soon as the head of the screw touches the Camera Module; if you tighten the screw too much, it can cause the support pillar to split horizontally along the grain of the print. Furthermore, try to avoid removing and re-threading the screws, as doing so will cut a new thread and, if done repeatedly, will erode the inside of the support pillar so that the screws will not hold.

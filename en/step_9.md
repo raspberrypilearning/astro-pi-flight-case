@@ -1,8 +1,15 @@
-## Do a fit check
+## Install the Raspberry Pi
 
-Before proceeding, put all the pieces together to check that they fit correctly. The lipped edge between the base and middle pieces is of most concern to you here. The heat sink and lid just need to line up.
++ Firstly, ensure there's no residual scaffolding material around the SD card slot or LED holes that might prevent the Raspberry Pi from lining up with the mounting pillars.
 
-![Fit the case together](images/fit-check.png)
++ Once you're happy, line the Raspberry Pi up and do a fit check. Verify that it doesn't touch the Camera Module below it. Don't insert the camera ribbon cable just yet, as this will make the next job awkward.
 
-Don't worry about any imperfections or residue from the scaffolding at this stage; you can tidy this up later with sandpaper.
+![](images/install-pi.png)
 
++ Next, screw the M2.5 11mm stand-offs into each corner of the Pi. With some light finger pressure they will cut their own thread in the support pillar pilot holes. After a few turns you'll need to use a small pair of pliers to continue turning them. Try to get the stand-offs to go into the support pillars straight down, and not at a slight angle, because that can lead to alignment issues with the Sense HAT later on. Be careful while you do this and, again, stop turning as soon as the stand-off touches the Raspberry Pi to avoid splitting the pillars horizontally along the grain of the print.
+
+If you are having trouble screwing in the stand-offs, screw one of the silver M2.5 cross-head screws into the stand-off, then use the screw head to screw the stand-off into the case. Once the stand-off is in place, don't forget to remove the screw.
+
+![Use a screw to help you](images/screwing-in-tip.png)
+
++ You can now insert the camera ribbon cable into the CSI port of the Raspberry Pi. Try to make sure the tin connectors are all level to ensure a good connection.

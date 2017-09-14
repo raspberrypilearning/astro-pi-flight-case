@@ -1,18 +1,11 @@
-## Install the push-buttons
+## Install the Sense HAT
 
-This section assumes you are using the buttons from the Astro Pi [components kit](http://cpc.farnell.com/ucreate/uc-apk-comp1/astro-pi-component-kit-budget/dp/SC14158) from CPC. If you are using the APEM buttons or another type of button, these may differ in their installation.
++ Remove the GPIO connector that comes with the Sense HAT. You can wiggle it from side to side, and it will come off without too much force.
 
-Take a button, then unscrew and remove the nut. Sometimes the nut will get stuck on the button cap, but it should come off if you wiggle it.
++ The Sense HAT can then be attached onto the extended header. Note that the header pins should not protrude through the top of the Sense HAT. If they do, then the height is not correct.
 
-![Remove nut from button](images/buttons1.png)
+![Remove the header from the Sense HAT](images/remove-sense-hat-header.png)
 
-Keeping the washer on the thread, insert the button from the underside of the lid. Then on the top side of the lid, put the nut back on and tighten it with your fingers. Check that the connectors are aligned horizontally on the underside before tightening fully.
++ Finally, use the M2.5 cross-head screws to secure the Sense HAT to the stand-offs below.
 
-![Insert button and screw on nut](images/buttons2.png)
-
-Do the same for the remaining buttons; when you are done it should look like this:
-
-![Finished front and back](images/buttons3.png)
-
-If you are using the lid with the pilot holes then you'll need to check the datasheet for your chosen button type to find the **threaded bushing diameter**. Once you know this you can select a drill bit with this diameter, plus 1mm for clearance, and proceed to drill all six holes. We recommend using a vice or G clamp to hold the lid in place while you drill. You can then install the buttons in accordance with their requirements.
-
+![All buttons connected](images/buttons-connected.png)

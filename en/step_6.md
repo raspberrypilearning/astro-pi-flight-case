@@ -1,11 +1,8 @@
-## Safety first
+## Do a fit check
 
-**It is important that you observe the correct safety procedures specified in the data sheet for your specific 3D printer.**
+Before proceeding, put all the pieces together to check that they fit correctly. The lipped edge between the base and middle pieces is of most concern to you here. The heat sink and lid just need to line up.
 
-Potential hazards include:
+![Fit the case together](images/fit-check.png)
 
-- Hot surfaces and thermoplastics (print head block and lamp)
-- Ultraviolet radiation (lamp)
-- High voltage (lamp connector, electric outlet)
-- Moving parts (printing assembly)
+Don't worry about any imperfections or residue from the scaffolding at this stage; you can tidy this up later with sandpaper.
 

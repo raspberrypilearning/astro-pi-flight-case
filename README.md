@@ -6,11 +6,6 @@ The Astro Pi flight case is one of the most desirable cases in the history of th
 
 If you're participating in an Astro Pi competition, this is a great way to prototype and efficiently test your code in the same way as it would be used by the crew of the ISS.
 
-## Worksheet
-
-- [3D printing and setup](worksheet.md)
-- [Install the hardware](worksheet2.md)
-
 ## Licence
 
 Unless otherwise specified, everything in this repository is covered by the following licence:

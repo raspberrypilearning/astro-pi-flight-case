@@ -1,5 +1,5 @@
 ---
-title: 3D-Printed Astro Pi Flight Case
+title: 3D-Printed Astro Pi flight case
 hero_image: images/banner.png
 description: Use a 3D printer to create your very own Astro Pi flight case like the ones on the ISS
 original_url: https://raspberrypi.org/learning/astro-pi-flight-case
@@ -15,24 +15,19 @@ site_areas: ''
 steps:
 - title: Introduction
 - title: What you will need
-- title: 3D-printed Astro Pi flight case
-- title: Get access to a 3D printer
 - title: Get the 3D files
-- title: Safety first
 - title: Print each part
 - title: Remove the scaffolding
 - title: Do a fit check
-- title: Checklist
-- title: 3D printed Astro Pi flight case
+- title: Parts checklist
 - title: Install the camera
 - title: Install the Raspberry Pi
 - title: Install stand offs for the Sense HAT
 - title: Install the push-buttons
 - title: Create the button wires
-- title: Connecting wires to the button terminals
-- title: Connecting the buttons to the Raspberry Pi
+- title: Connect wires to the button terminals
+- title: Connect the buttons to the Raspberry Pi
 - title: Install the Sense HAT
 - title: Assemble the case
 - title: Test the buttons
-- title: What next?
-
+- title: "Challenge: improve your case"
