@@ -1,10 +1,10 @@
 ## Create the button wires
 
-Firstly, you need to prepare the button wires to be able to attach them to the buttons. In the real flight unit, we soldered the button wires on to make them more reliable, but in the kit you will find jumper wires which will do the same job. The colour of the wires is not important as they are all exactly the same inside.
+Firstly, you need to prepare the button wires to be able to attach them to the buttons. In the real flight unit, we soldered the button wires on to make them more reliable — in the kit you will find jumper wires which will do the same job. The colour of the wires is not important, as they are all exactly the same inside.
 
-+ Take a coloured wire and, without cutting it, remove the black plastic sheath from **one** end. You can do this by pulling it off with wire cutters or by pulling up the small tab and removing it by hand. This exposes a pin connector.
++ Take a coloured wire and, without cutting it, remove the black plastic sheath from **one** end. You can do this by pulling it off with wire cutters, or by pulling up the small tab and removing it by hand. This exposes a pin connector.
 
-+ Pass a plastic insulation boot over the pin connector, narrow end first, and slide it out of the way down the wire. Then place the connector inside a crimp.
++ Pass a plastic insulation boot over the pin connector narrow end first, and slide it out of the way down the wire. Then place the connector inside a crimp.
 
 ![Crimping the wire](images/wire-crimping1.png)
 
@@ -14,7 +14,7 @@ Firstly, you need to prepare the button wires to be able to attach them to the b
 
 ![Finished wire](images/wire-crimping2.png)
 
-To avoid having six more wires connected to the Raspberry Pi as ground wires, you will create a ground loop wire which connects to all of the buttons. This technique is also used in the real flight units.
+Instead of connecting six more wires to the Raspberry Pi as ground wires, you will create a ground loop wire which connects to all of the buttons. This technique is also used in the real flight units.
 
 + Take the piece of black wire, which should be approximately 50cm in length. Using a ruler and wire cutters, make five 10cm lengths.
 
