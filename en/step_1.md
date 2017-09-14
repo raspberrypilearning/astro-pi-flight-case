@@ -17,10 +17,11 @@ Here is an example of how your finished 3D-printed Astro Pi flight case might lo
 ![Finished case](images/install-joystick.png)
 
 ### What you will learn
-By following this resource you will learn how to:
+By following this resource you will learn:
 
-- 3D print the Astro Pi flight case
-- Correctly install the Astro Pi hardware inside the case
+- How to 3D print the Astro Pi flight case
+- What fixtures and fittings you need to install the Astro Pi hardware
+- How to correctly install the Astro Pi hardware inside the case
 
 This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){:target="_blank"}:
 
