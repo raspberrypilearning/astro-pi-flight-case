@@ -16,4 +16,4 @@ This section assumes you are using the buttons from the Astro Pi [components kit
 
 ![Finished front and back](images/buttons3.png)
 
-If you are using the lid with the pilot holes, then you'll need to check the datasheet for your chosen button type to find the **threaded bushing diameter**. Then you can select a drill bit with this diameter, plus 1 mm for clearance, and proceed to drill all six holes. We recommend using a vice or G clamp to hold the lid in place while you drill. You can then install the buttons in accordance with their requirements.
+If you are using the lid with the pilot holes, then you'll need to check the datasheet for your chosen button type to find the **threaded bushing diameter**. Then you can select a drill bit with this diameter, plus 1mm for clearance, and proceed to drill all six holes. We recommend using a vice or a G clamp to hold the lid in place while you drill. You can then install the buttons in accordance with their requirements.
