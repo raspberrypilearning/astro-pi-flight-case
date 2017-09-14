@@ -1,10 +1,14 @@
 ## Install the camera
 
-When you're happy with the 3D-printed parts you can proceed with installing the hardware.
+When you're happy with the 3D-printed parts, you can proceed to the hardware installation.
 
-Getting the camera into the case can be a little tricky but here is how we did it for the flight units. Firstly, lift the two tabs on either side of the Camera Module to disconnect the ribbon cable from the camera. Then fold the ribbon. These folds allow the camera cable to come up the side of the Raspberry Pi with enough flex to insert into the CSI camera port (see further down).
+Getting the camera into the case can be a little tricky, but here is how we did it for the flight units:
 
-+ Lay the ribbon out with the writing face up and the visible connectors on the left. At 1cm along the ribbon, fold the ribbon downwards.
++ Firstly, lift the two tabs on either side of the Camera Module to disconnect the ribbon cable from the camera.
+
+Then fold the ribbon. These folds allow the camera cable to come up the side of the Raspberry Pi with enough flex to insert into the CSI camera port (see further down).
+
++ Lay the ribbon out with the writing face up and the visible connectors on the left. At 1 cm along the ribbon, fold the ribbon downwards.
 
   ![Fold down at 1cm](images/cam-fold1.png)
 
@@ -16,11 +20,11 @@ Getting the camera into the case can be a little tricky but here is how we did i
 
   ![Fold 1cm](images/cam-fold3.png)
 
-+ Tape the ribbon on the bottom to prevent it from unfurling. We have used kapton tape but any kind of tape will work fine.
++ Tape the ribbon on the bottom to prevent it from unfurling. We have used Kapton tape, but any kind of tape will work fine.
 
   ![Camera with tape](images/cam-tape.png)
 
-You don't need to get this perfect for it to work, but try to get it as close as possible.
+You don't need to get this perfect for it to work, but try to do it as precisely as you can.
 
 + Reconnect the **Cam** end of the ribbon cable to the Camera Module. Make sure that the tin connectors are facing the front and the blue tab is on the back.
 
@@ -30,4 +34,4 @@ You don't need to get this perfect for it to work, but try to get it as close as
 
 ![Screw in the camera](images/screw-in-camera.png)
 
-Stop turning as soon as the head of the screw touches the Camera Module; if you tighten the screw too much it can cause the support pillar to split horizontally along the grain of the print. Furthermore, try to avoid removing and re-threading the screws as this will cut a new thread and, if done repeatedly, will erode the inside of the support pillar so that the screws will not hold.
+Stop turning as soon as the head of the screw touches the Camera Module; if you tighten the screw too much, it can cause the support pillar to split horizontally along the grain of the print. Furthermore, try to avoid removing and re-threading the screws, as doing so will cut a new thread and, if done repeatedly, will erode the inside of the support pillar so that the screws will not hold.
