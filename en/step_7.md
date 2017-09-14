@@ -18,7 +18,7 @@ title: Full list of kit parts
 
 ![Astro Pi actual button](images/apem.jpg)
 
-The kit already contains buttons, but if you want to buy the exact buttons used in the Astro Pi flight unit, the details are below. At about £9 each they are expensive, because they're designed to survive an enormous number of clicks before wearing out, which is necessary for a seven-year space mission.
+The kit already contains buttons, but if you want to buy the exact buttons used in the Astro Pi flight unit, the details are below. At a price of £9 each. they are expensive — that's because they're designed to survive an enormous number of clicks before wearing out, a feature which is necessary for a seven-year space mission.
 
 - Manufacturer: APEM
 - Manufacturer Part No: 104350003
