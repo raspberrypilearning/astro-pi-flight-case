@@ -13,8 +13,8 @@ Print **one** file from each section:
 
 **Part 2 - Base**
 
-* [Base for Model B+ or Pi 2](https://github.com/raspberrypilearning/astro-pi-flight-case/raw/master/data/3d-printed/STL/Astro_Pi_Base_Pi1_or_2.stl) or [Anti-warp base for Model B+ or Pi 2](https://github.com/raspberrypilearning/astro-pi-flight-case/raw/master/data/3d-printed/STL/anti-warping/Astro_Pi_Base_Pi1_or_2_warp.stl)
-* [Base for Pi 3](https://github.com/raspberrypilearning/astro-pi-flight-case/raw/master/data/3d-printed/STL/Astro_Pi_Base_Pi3.stl) or [Anti-warp base for Pi 3](https://github.com/raspberrypilearning/astro-pi-flight-case/raw/master/data/3d-printed/STL/anti-warping/Astro_Pi_Base_Pi3_warp.stl)
+* [Base for Model B+ or Model 2](https://github.com/raspberrypilearning/astro-pi-flight-case/raw/master/data/3d-printed/STL/Astro_Pi_Base_Pi1_or_2.stl) or [Anti-warp base for Model B+ or Model 2](https://github.com/raspberrypilearning/astro-pi-flight-case/raw/master/data/3d-printed/STL/anti-warping/Astro_Pi_Base_Pi1_or_2_warp.stl)
+* [Base for Model 3](https://github.com/raspberrypilearning/astro-pi-flight-case/raw/master/data/3d-printed/STL/Astro_Pi_Base_Pi3.stl) or [Anti-warp base for Model 3](https://github.com/raspberrypilearning/astro-pi-flight-case/raw/master/data/3d-printed/STL/anti-warping/Astro_Pi_Base_Pi3_warp.stl)
 
 **Part 3 - Middle**
 
@@ -28,7 +28,7 @@ Print **one** file from each section:
 
 **Part 5 - Joystick cap**
 
-Note that this joystick cap may need some slight adjustments due to the nozzle size and layer height of your printer. If you have difficulty with fitting it onto the stump of the Sense HAT joystick then try using a layer height of 0.1 mm as opposed to 0.15 mm.
+Note that this joystick cap may need some slight adjustments due to the nozzle size and layer height of your printer. If you have difficulty with fitting it onto the stump of the Sense HAT joystick then try using a layer height of 0.1mm as opposed to 0.15mm.
 
 * [Joystick](https://github.com/raspberrypilearning/astro-pi-flight-case/raw/master/data/3d-printed/STL/Astro_Pi_Joystick.stl)
 
