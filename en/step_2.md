@@ -9,7 +9,7 @@
 
 ### Additional requirements
 
-+ Access to a 3D printer. Many schools now have their own, but if your school doesn’t then you may be able to find one at your local [hackspace](http://www.hackspace.org.uk/){:target="_blank"}. You can also find local 3D printing services through the [3D Hubs website](https://www.3dhubs.com/){:target="_blank"}.
++ Access to a 3D printer. Many schools now have their own, but if your school doesn’t, you might be able to find one at your local [hackspace](http://www.hackspace.org.uk/){:target="_blank"}. You can also find local 3D printing services through the [3D Hubs website](https://www.3dhubs.com/){:target="_blank"}.
 
 You’re also going to need the following tools:
 
