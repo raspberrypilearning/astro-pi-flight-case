@@ -8,7 +8,7 @@ Getting the camera into the case can be a little tricky, but here is how we did 
 
 Then fold the ribbon. These folds allow the camera cable to come up the side of the Raspberry Pi with enough flex to insert into the CSI camera port (see further down).
 
-+ Lay the ribbon out with the writing face up and the visible connectors on the left. At 1 cm along the ribbon, fold the ribbon downwards.
++ Lay the ribbon out with the writing face up and the visible connectors on the left. At 1cm along the ribbon, fold the ribbon downwards.
 
   ![Fold down at 1cm](images/cam-fold1.png)
 
