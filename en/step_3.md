@@ -1,6 +1,6 @@
 ## Get the 3D files
 
-The 3D files are in [STL](https://en.wikipedia.org/wiki/STL_%28file_format%29){:target="_blank"} format, which is widely used in 3D printing all over the world. The software for your 3D printer will have no problem loading them. Import using metric millimetres (mm) and no scale adjustments will be required.
+The 3D files are in [STL](https://en.wikipedia.org/wiki/STL_%28file_format%29){:target="_blank"} format, which is widely used in 3D printing all over the world. The software for your 3D printer will have no problem loading them. Import using metric millimetres (mm), and no scale adjustments will be required.
 
 You can choose between printing using the standard STL file or the anti-warping STL file for each component. The anti-warping files add extra scaffolding around the case print to prevent the part becoming warped as it cools.
 
