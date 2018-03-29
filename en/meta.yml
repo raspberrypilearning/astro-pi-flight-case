@@ -10,10 +10,10 @@ ingredient: false
 copyedit: true
 curriculum: 3, design-0, programming-0, phys-comp-0, manufacture-3, community-0
 interests: space
-technologies: raspberry-pi, electronic-components, python
+technologies: ''
 site_areas: projects
-hardware: raspberry-pi, electronic-components
-software: python
+hardware: ''
+software: ''
 version: 4
 last_tested: 2017-01-01
 steps: 
