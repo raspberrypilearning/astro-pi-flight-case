@@ -6,7 +6,7 @@ description: Use a 3D printer to create your very own Astro Pi flight case like 
 original_url: https://raspberrypi.org/learning/astro-pi-flight-case
 theme: blue
 duration: 2
-listed: true
+listed: false
 ingredient: false
 copyedit: true
 curriculum: 3, design-0, programming-0, phys-comp-0, manufacture-3, community-0
